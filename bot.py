@@ -155,6 +155,89 @@ async def check_and_assign_roles(member: discord.Member, honey: int):
         except discord.Forbidden:
             print(f"Missing permissions to assign roles in {member.guild.name}")
 
+# ================== MODERATION HELPERS ==================
+
+def moderation_error(message: str) -> discord.Embed:
+    return discord.Embed(
+        title="❌ Moderation Action Failed",
+        description=message,
+        color=discord.Color.red(),
+    )
+
+
+def can_moderate_member(
+    interaction: discord.Interaction,
+    target: discord.Member,
+) -> str | None:
+    """Return an error string when target cannot be moderated, else None."""
+    if interaction.guild is None:
+        return "This command can only be used inside a server."
+
+    if target.id == interaction.user.id:
+        return "You cannot moderate yourself."
+
+    if target.id == interaction.guild.owner_id:
+        return "You cannot moderate the server owner."
+
+    if interaction.guild.me is None:
+        return "I could not determine my server permissions."
+
+    if target.id == interaction.guild.me.id:
+        return "I cannot moderate myself."
+
+    if target.top_role >= interaction.guild.me.top_role:
+        return "My highest role must be above the target's highest role."
+
+    if (
+        interaction.user.id != interaction.guild.owner_id
+        and isinstance(interaction.user, discord.Member)
+        and target.top_role >= interaction.user.top_role
+    ):
+        return "Your highest role must be above the target's highest role."
+
+    return None
+
+
+async def add_warning(
+    guild_id: int,
+    user_id: int,
+    moderator_id: int,
+    reason: str,
+) -> int:
+    async with aiosqlite.connect(DB_PATH) as db:
+        cursor = await db.execute(
+            """
+            INSERT INTO warnings (guild_id, user_id, moderator_id, reason, created_at)
+            VALUES (?, ?, ?, ?, ?)
+            """,
+            (guild_id, user_id, moderator_id, reason, datetime.utcnow().isoformat()),
+        )
+        await db.commit()
+        return cursor.lastrowid
+
+
+async def get_warnings(guild_id: int, user_id: int):
+    async with aiosqlite.connect(DB_PATH) as db:
+        async with db.execute(
+            """
+            SELECT id, moderator_id, reason, created_at
+            FROM warnings
+            WHERE guild_id = ? AND user_id = ?
+            ORDER BY id DESC
+            """,
+            (guild_id, user_id),
+        ) as cursor:
+            return await cursor.fetchall()
+
+
+async def clear_member_warnings(guild_id: int, user_id: int) -> int:
+    async with aiosqlite.connect(DB_PATH) as db:
+        cursor = await db.execute(
+            "DELETE FROM warnings WHERE guild_id = ? AND user_id = ?",
+            (guild_id, user_id),
+        )
+        await db.commit()
+        return cursor.rowcount
 # ================== TRIVIA STATE ==================
 current_trivia = {
     "active": False,
