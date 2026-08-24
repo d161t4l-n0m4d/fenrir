@@ -2,7 +2,7 @@
   "prefix": "!",
   "currency_name": "Hive coin",
   "currency_emoji": "🍯",
-  "trivia_channel_id": 1528097026816868392,
+  "trivia_channel_id": 1528016868392,
   "trivia_interval_min_minutes": 20,
   "trivia_interval_max_minutes": 40,
   "trivia_time_seconds": 90,
@@ -13,27 +13,27 @@
   "role_rewards": [
     {
       "honey_required": 200,
-      "role_id": 1504691178896097321,
+      "role_id": 1596097321,
       "name": "Hacker Bee"
     },
     {
       "honey_required": 500,
-      "role_id": 1504691016664350751,
+      "role_id": 154350751,
       "name": "Scout"
     },
     {
       "honey_required": 1000,
-      "role_id": 1504691328821497866,
+      "role_id": 151497866,
       "name": "Guardian"
     },
     {
       "honey_required": 2500,
-      "role_id": 1504691429081874494,
+      "role_id": 15874494,
       "name": "Hive Elder"
     },
     {
       "honey_required": 5000,
-      "role_id": 1504691528801587220,
+      "role_id": 15587220,
       "name": "Queen's Guard"
     }
   ]
