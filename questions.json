@@ -1,0 +1,5109 @@
+[
+  {
+    "question": "🏁 **Which** tool is used for **extracting hidden data** from images?",
+    "answer": "steghide",
+    "accepted": [
+      "steghide",
+      "binwalk",
+      "zsteg",
+      "exiftool"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Steghide**, **binwalk**, and **zsteg** are common steg-extraction tools."
+  },
+  {
+    "question": "🏁 **What is** the shift amount used in **ROT13**?",
+    "answer": "13",
+    "accepted": [
+      "13",
+      "rot13"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**ROT13** shifts each letter 13 positions."
+  },
+  {
+    "question": "🏁 **What is** the primary mechanism of a **Caesar cipher**?",
+    "answer": "letter shift",
+    "accepted": [
+      "letter shift",
+      "shift cipher",
+      "substitution cipher"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The **Caesar cipher** shifts each letter by a fixed number."
+  },
+  {
+    "question": "🏁 **Which** encoding type uses `=` as trailing padding?",
+    "answer": "base64",
+    "accepted": [
+      "base64",
+      "base 64"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Base64 uses `=` for padding."
+  },
+  {
+    "question": "🐙 **Which** command is used to **download a remote git repository**?",
+    "answer": "git clone",
+    "accepted": [
+      "git clone",
+      "clone"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git clone <url>` copies a remote repository."
+  },
+  {
+    "question": "🐙 **Which** command **stages all local changes** in Git?",
+    "answer": "git add .",
+    "accepted": [
+      "git add .",
+      "git add"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git add .` stages all changes in the current directory."
+  },
+  {
+    "question": "🐙 **Which** command shows the **status of the working tree** in Git?",
+    "answer": "git status",
+    "accepted": [
+      "git status",
+      "status"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git status` shows staged, unstaged, and untracked files."
+  },
+  {
+    "question": "🐙 **Which** command is used to **create a new branch** in Git?",
+    "answer": "git branch",
+    "accepted": [
+      "git branch",
+      "git checkout -b"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git branch name` creates a local branch."
+  },
+  {
+    "question": "🐙 **Which** command **merges a branch** into the current one?",
+    "answer": "git merge",
+    "accepted": [
+      "git merge"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git merge` joins two branches together."
+  },
+  {
+    "question": "🐙 **Which** command shows the **commit history log**?",
+    "answer": "git log",
+    "accepted": [
+      "git log",
+      "log"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git log` shows all commit history."
+  },
+  {
+    "question": "🐙 **Which** command **uploads local commits** to a remote?",
+    "answer": "git push",
+    "accepted": [
+      "git push",
+      "push"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git push` sends your commits to the remote."
+  },
+  {
+    "question": "🐙 **Which** command **fetches and integrates** remote changes?",
+    "answer": "git pull",
+    "accepted": [
+      "git pull",
+      "pull"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git pull` combines fetch and merge."
+  },
+  {
+    "question": "🐙 **Which** command **undoes the last commit** while keeping changes?",
+    "answer": "git reset --soft",
+    "accepted": [
+      "git reset --soft",
+      "git reset"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git reset --soft HEAD~1` undoes a commit but keeps changes."
+  },
+  {
+    "question": "🐙 **Which** command **stashes unsaved changes** for later use?",
+    "answer": "git stash",
+    "accepted": [
+      "git stash",
+      "stash"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`git stash` saves dirty state for later restoration."
+  },
+  {
+    "question": "🌐 **Which** HTTP method is primarily used to **read data**?",
+    "answer": "get",
+    "accepted": [
+      "get",
+      "http get"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**GET** retrieves resources."
+  },
+  {
+    "question": "🌐 **Which** HTTP method is used to **replace an entire resource**?",
+    "answer": "put",
+    "accepted": [
+      "put",
+      "http put"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**PUT** replaces entire resources."
+  },
+  {
+    "question": "🌐 **Which** HTTP method is used to **delete a resource**?",
+    "answer": "delete",
+    "accepted": [
+      "delete",
+      "http delete"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**DELETE** removes resources."
+  },
+  {
+    "question": "🌐 **What is** the meaning of the **HTTP 200** status code?",
+    "answer": "ok",
+    "accepted": [
+      "ok",
+      "200 ok",
+      "success"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**200 OK** means the request succeeded."
+  },
+  {
+    "question": "🌐 **What is** the meaning of the **HTTP 201** status code?",
+    "answer": "created",
+    "accepted": [
+      "created",
+      "201 created"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**201 Created** means a resource was created."
+  },
+  {
+    "question": "🌐 **What is** the meaning of the **HTTP 301** status code?",
+    "answer": "moved permanently",
+    "accepted": [
+      "moved permanently",
+      "301",
+      "redirect"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**301** is a permanent redirect."
+  },
+  {
+    "question": "🌐 **What is** the meaning of the **HTTP 302** status code?",
+    "answer": "found",
+    "accepted": [
+      "found",
+      "302 found",
+      "temporary redirect"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**302** is a temporary redirect."
+  },
+  {
+    "question": "🌐 **What is** the meaning of the **HTTP 429** status code?",
+    "answer": "too many requests",
+    "accepted": [
+      "too many requests",
+      "429",
+      "rate limit"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**429** means rate limiting triggered."
+  },
+  {
+    "question": "🌐 **What is** the meaning of the **HTTP 503** status code?",
+    "answer": "service unavailable",
+    "accepted": [
+      "service unavailable",
+      "503"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**503** means server is down/busy."
+  },
+  {
+    "question": "🌐 **Which** HTTP header tells the server the **requested hostname**?",
+    "answer": "host",
+    "accepted": [
+      "host",
+      "host header"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The **Host** header routes to specific domains."
+  },
+  {
+    "question": "💛 **Which** keyword is used for **block-scoped variables** in modern JS?",
+    "answer": "let",
+    "accepted": [
+      "let",
+      "const"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`let` and `const` are block-scoped."
+  },
+  {
+    "question": "💛 **What is** the term for the `===` operator in JavaScript?",
+    "answer": "strict equality",
+    "accepted": [
+      "strict equality",
+      "triple equals"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`===` checks value AND type."
+  },
+  {
+    "question": "💛 **What is** the output of `typeof null` in JavaScript?",
+    "answer": "object",
+    "accepted": [
+      "object"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A legacy bug: `typeof null` is \"object\"."
+  },
+  {
+    "question": "💛 **Which** JS array method **adds an item to the end**?",
+    "answer": "push",
+    "accepted": [
+      "push",
+      ".push"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`arr.push()` appends elements."
+  },
+  {
+    "question": "💛 **Which** JS array method **removes the first item**?",
+    "answer": "shift",
+    "accepted": [
+      "shift",
+      ".shift"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`arr.shift()` removes from the front."
+  },
+  {
+    "question": "💛 **Which** JS method **transforms each element** into a new array?",
+    "answer": "map",
+    "accepted": [
+      "map",
+      ".map"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`arr.map()` returns a transformed array."
+  },
+  {
+    "question": "💛 **Which** JS method **filters an array** based on a condition?",
+    "answer": "filter",
+    "accepted": [
+      "filter",
+      ".filter"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`arr.filter()` keeps matching elements."
+  },
+  {
+    "question": "💛 **Which** JS method **reduces an array** to a single value?",
+    "answer": "reduce",
+    "accepted": [
+      "reduce",
+      ".reduce"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`arr.reduce()` aggregates values."
+  },
+  {
+    "question": "💛 **Which** keywords are used for **modern promise handling** in JS?",
+    "answer": "async await",
+    "accepted": [
+      "async await",
+      "async/await"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`async/await` simplifies async code."
+  },
+  {
+    "question": "💛 **What is** the term for a function that retains access to its outer scope?",
+    "answer": "closure",
+    "accepted": [
+      "closure"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **closure** captures variables from its environment."
+  },
+  {
+    "question": "🐍 **Which** Python function returns the **type of a variable**?",
+    "answer": "type",
+    "accepted": [
+      "type",
+      "type()"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`type(x)` identifies the class of an object."
+  },
+  {
+    "question": "🐍 **Which** keyword is used for **exception handling** in Python?",
+    "answer": "try",
+    "accepted": [
+      "try",
+      "try-except"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Python uses `try/except` for error handling."
+  },
+  {
+    "question": "🐍 **Which** statement is used to **safely open files** in Python?",
+    "answer": "with open",
+    "accepted": [
+      "with open",
+      "with"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The `with` statement handles resource closing."
+  },
+  {
+    "question": "🐍 **Which** Python string method **splits a string into a list**?",
+    "answer": "split",
+    "accepted": [
+      "split",
+      ".split"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`s.split()` divides strings by separators."
+  },
+  {
+    "question": "🐍 **Which** Python string method **joins a list into a string**?",
+    "answer": "join",
+    "accepted": [
+      "join",
+      ".join"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`s.join(list)` merges strings together."
+  },
+  {
+    "question": "🐍 **What is** the 4-letter name for the **key-value structure** in Python?",
+    "answer": "dict",
+    "accepted": [
+      "dict",
+      "dictionary"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`dict` is the built-in hash map in Python."
+  },
+  {
+    "question": "🐍 **What is** the output of `list(range(5))` in Python?",
+    "answer": "[0, 1, 2, 3, 4]",
+    "accepted": [
+      "[0, 1, 2, 3, 4]"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`range(5)` yields integers 0-4."
+  },
+  {
+    "question": "🐍 **Which** decorator defines a **method bound to the class** in Python?",
+    "answer": "classmethod",
+    "accepted": [
+      "classmethod",
+      "@classmethod"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`@classmethod` passes `cls` to the function."
+  },
+  {
+    "question": "🐍 **Which** keyword is used to **import a specific function** from a module?",
+    "answer": "from",
+    "accepted": [
+      "from",
+      "from import"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`from x import y` picks specific items."
+  },
+  {
+    "question": "🐍 **What is** the meaning of the `**kwargs` parameter in Python?",
+    "answer": "arbitrary keyword arguments",
+    "accepted": [
+      "arbitrary keyword arguments",
+      "keyword arguments"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`**kwargs` collects variable keyword arguments."
+  },
+  {
+    "question": "🔌 **Which** protocol **assigns IP addresses automatically**?",
+    "answer": "dhcp",
+    "accepted": [
+      "dhcp",
+      "dynamic host configuration protocol"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**DHCP** automates network configuration."
+  },
+  {
+    "question": "🔌 **Which** protocol **translates domain names to IP addresses**?",
+    "answer": "dns",
+    "accepted": [
+      "dns",
+      "domain name system"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**DNS** is the internet phonebook."
+  },
+  {
+    "question": "🔌 **What is** the full name for the abbreviation **TCP**?",
+    "answer": "transmission control protocol",
+    "accepted": [
+      "transmission control protocol",
+      "tcp"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**TCP** is connection-oriented data transfer."
+  },
+  {
+    "question": "🔌 **What is** the full name for the abbreviation **UDP**?",
+    "answer": "user datagram protocol",
+    "accepted": [
+      "user datagram protocol",
+      "udp"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**UDP** is fast, connectionless data transfer."
+  },
+  {
+    "question": "🔌 **What is** the term for a unique **hardware address** on a NIC?",
+    "answer": "mac address",
+    "accepted": [
+      "mac address",
+      "physical address",
+      "hardware address"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**MAC** identifies the hardware device."
+  },
+  {
+    "question": "🔌 **What is** the role of a **subnet mask** in a network?",
+    "answer": "defines network portion",
+    "accepted": [
+      "defines network portion",
+      "defines range",
+      "subnetting"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **subnet mask** splits IP into network/host."
+  },
+  {
+    "question": "🔌 **What is** the standard **IPv4 loopback address**?",
+    "answer": "127.0.0.1",
+    "accepted": [
+      "127.0.0.1",
+      "localhost"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`127.0.0.1` refers to your own machine."
+  },
+  {
+    "question": "🔌 **Which** device is used to **filter network traffic**?",
+    "answer": "firewall",
+    "accepted": [
+      "firewall",
+      "filter"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **firewall** blocks unwanted connections."
+  },
+  {
+    "question": "🔌 **Which** OSI layer does the **IP protocol** operate at?",
+    "answer": "layer 3",
+    "accepted": [
+      "layer 3",
+      "network layer",
+      "l3"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "IP is a **Layer 3** network protocol."
+  },
+  {
+    "question": "🔌 **What is** the primary role of a **proxy server**?",
+    "answer": "intermediary",
+    "accepted": [
+      "intermediary",
+      "middleman",
+      "forward proxy"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **proxy** acts as a bridge for requests."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **create a directory**?",
+    "answer": "mkdir",
+    "accepted": [
+      "mkdir"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`mkdir` makes new folders."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **copy a file**?",
+    "answer": "cp",
+    "accepted": [
+      "cp"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`cp` copies data to a destination."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **move or rename a file**?",
+    "answer": "mv",
+    "accepted": [
+      "mv"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`mv` moves or renames files/folders."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **delete a file**?",
+    "answer": "rm",
+    "accepted": [
+      "rm"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`rm` removes files permanently."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **print file contents**?",
+    "answer": "cat",
+    "accepted": [
+      "cat"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`cat` concatenates/prints files."
+  },
+  {
+    "question": "🐧 **Which** Linux command shows the **first 10 lines** of a file?",
+    "answer": "head",
+    "accepted": [
+      "head"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`head` displays the start of a file."
+  },
+  {
+    "question": "🐧 **Which** Linux command shows the **last 10 lines** of a file?",
+    "answer": "tail",
+    "accepted": [
+      "tail"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`tail` displays the end of a file."
+  },
+  {
+    "question": "🐧 **Which** Linux command **counts lines or words** in a file?",
+    "answer": "wc",
+    "accepted": [
+      "wc",
+      "wc -l"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`wc` performs word/byte/line counts."
+  },
+  {
+    "question": "🐧 **Which** Linux command prints the **current directory path**?",
+    "answer": "pwd",
+    "accepted": [
+      "pwd"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`pwd` (Print Working Directory)."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **change directories**?",
+    "answer": "cd",
+    "accepted": [
+      "cd"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`cd` navigates the filesystem."
+  },
+  {
+    "question": "💻 **What is** the primary structure of a **linked list**?",
+    "answer": "nodes with pointers",
+    "accepted": [
+      "nodes with pointers",
+      "nodes"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Linked lists use nodes and references."
+  },
+  {
+    "question": "💻 **What is** the characterstic of a **binary tree**?",
+    "answer": "two children per node",
+    "accepted": [
+      "two children per node",
+      "binary tree"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Binary trees branch into max 2 nodes."
+  },
+  {
+    "question": "💻 **What is** the term for a **function calling itself**?",
+    "answer": "recursion",
+    "accepted": [
+      "recursion"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Recursion** solves problems via self-reference."
+  },
+  {
+    "question": "💻 **What is** the OOP concept of **same interface different behavior**?",
+    "answer": "polymorphism",
+    "accepted": [
+      "polymorphism"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Polymorphism** allows flexible implementations."
+  },
+  {
+    "question": "💻 **What is** the OOP concept where a **class inherits from another**?",
+    "answer": "inheritance",
+    "accepted": [
+      "inheritance"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Inheritance enables code reuse."
+  },
+  {
+    "question": "💻 **What is** the OOP concept of **hiding internal state**?",
+    "answer": "encapsulation",
+    "accepted": [
+      "encapsulation",
+      "data hiding"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Encapsulation** protects object integrity."
+  },
+  {
+    "question": "💻 **What is** the primary role of a **hash table**?",
+    "answer": "key value store",
+    "accepted": [
+      "key value store",
+      "hashmap"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Hash maps allow fast O(1) lookups."
+  },
+  {
+    "question": "💻 **Which** sorting algorithm has an **average O(n log n)** complexity?",
+    "answer": "merge sort",
+    "accepted": [
+      "merge sort",
+      "quicksort",
+      "heapsort"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Merge sort** is O(n log n)."
+  },
+  {
+    "question": "💻 **What is** the term for a **timing-dependent bug**?",
+    "answer": "race condition",
+    "accepted": [
+      "race condition"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Concurrency issues cause race conditions."
+  },
+  {
+    "question": "💻 **What is** the full name for the **REST** API design style?",
+    "answer": "representational state transfer",
+    "accepted": [
+      "representational state transfer",
+      "rest"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**REST** uses standard HTTP methods."
+  },
+  {
+    "question": "🔐 **Which** protocol provides **encryption for HTTPS**?",
+    "answer": "tls",
+    "accepted": [
+      "tls",
+      "ssl"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "TLS secures web traffic."
+  },
+  {
+    "question": "🔐 **What is** the term for a **decoy system** used to trap attackers?",
+    "answer": "honeypot",
+    "accepted": [
+      "honeypot",
+      "decoy"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Honeypots lure and study attackers."
+  },
+  {
+    "question": "🔐 **What is** the primary target of **social engineering**?",
+    "answer": "humans",
+    "accepted": [
+      "humans",
+      "people"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Social engineering exploits human trust."
+  },
+  {
+    "question": "🔐 **What is** the primary method used in **phishing**?",
+    "answer": "fake email",
+    "accepted": [
+      "fake email",
+      "email phishing"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Phishing uses deceptive emails."
+  },
+  {
+    "question": "🔐 **What is** the meaning of the abbreviation **2FA**?",
+    "answer": "two verification steps",
+    "accepted": [
+      "two verification steps",
+      "2fa",
+      "mfa"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**2FA** adds a second security layer."
+  },
+  {
+    "question": "🔐 **What is** the primary method of a **brute force** attack?",
+    "answer": "trying all passwords",
+    "accepted": [
+      "trying all passwords",
+      "guessing"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Brute force testing every possible key."
+  },
+  {
+    "question": "🔐 **What is** the full names for the **CIA triad** components?",
+    "answer": "confidentiality integrity availability",
+    "accepted": [
+      "confidentiality integrity availability",
+      "cia"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The **CIA Triad** is the core of InfoSec."
+  },
+  {
+    "question": "🔐 **What is** the full name for the abbreviation **IPS**?",
+    "answer": "intrusion prevention system",
+    "accepted": [
+      "intrusion prevention system",
+      "ips"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "An **IPS** blocks intrusive activity."
+  },
+  {
+    "question": "🔐 **What is** the term for a **network of compromised machines**?",
+    "answer": "botnet",
+    "accepted": [
+      "botnet"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **botnet** controlled by a master server."
+  },
+  {
+    "question": "🔐 **What is** the primary goal of **port scanning**?",
+    "answer": "discovering open ports",
+    "accepted": [
+      "discovering open ports",
+      "port scan"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Scanning finds accessible services."
+  },
+  {
+    "question": "🔌 **Which** port is used by **SSH** by default?",
+    "answer": "22",
+    "accepted": [
+      "22"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "SSH listens on **Port 22**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **HTTP** by default?",
+    "answer": "80",
+    "accepted": [
+      "80"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "HTTP listens on **Port 80**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **HTTPS** by default?",
+    "answer": "443",
+    "accepted": [
+      "443"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "HTTPS listens on **Port 443**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **FTP** control?",
+    "answer": "21",
+    "accepted": [
+      "21"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "FTP control is on **Port 21**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **DNS** requests?",
+    "answer": "53",
+    "accepted": [
+      "53"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "DNS is on **Port 53**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **SMTP**?",
+    "answer": "25",
+    "accepted": [
+      "25"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "SMTP is on **Port 25**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **Telnet**?",
+    "answer": "23",
+    "accepted": [
+      "23"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Telnet is on **Port 23**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **MySQL**?",
+    "answer": "3306",
+    "accepted": [
+      "3306"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "MySQL is on **Port 3306**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **RDP**?",
+    "answer": "3389",
+    "accepted": [
+      "3389"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "RDP is on **Port 3389**."
+  },
+  {
+    "question": "🔌 **Which** port is used by **PostgreSQL**?",
+    "answer": "5432",
+    "accepted": [
+      "5432"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "PostgreSQL is on **Port 5432**."
+  },
+  {
+    "question": "🔌 **What is** the CIDR notation for the subnet mask **255.255.255.0**?",
+    "answer": "/24",
+    "accepted": [
+      "/24",
+      "24"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "255.255.255.0 equals a **/24**."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **change file permissions**?",
+    "answer": "chmod",
+    "accepted": [
+      "chmod"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "`chmod` modifies read/write/exec bits."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **change file ownership**?",
+    "answer": "chown",
+    "accepted": [
+      "chown"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "`chown` modifies owner/group."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **list files** in a directory?",
+    "answer": "ls",
+    "accepted": [
+      "ls"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`ls` lists directory contents."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **search for text** in files?",
+    "answer": "grep",
+    "accepted": [
+      "grep"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`grep` matches patterns in files."
+  },
+  {
+    "question": "🐧 **Which** Linux command displays the **manual page**?",
+    "answer": "man",
+    "accepted": [
+      "man"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`man` shows command documentation."
+  },
+  {
+    "question": "🐧 **Which** Linux command shows **running processes**?",
+    "answer": "top",
+    "accepted": [
+      "top",
+      "htop",
+      "ps"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`top` shows system load and processes."
+  },
+  {
+    "question": "🐧 **Which** file stores **user account information** in Linux?",
+    "answer": "/etc/passwd",
+    "accepted": [
+      "/etc/passwd",
+      "passwd"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "`/etc/passwd` lists users."
+  },
+  {
+    "question": "🐧 **Which** file stores **encrypted passwords** in Linux?",
+    "answer": "/etc/shadow",
+    "accepted": [
+      "/etc/shadow",
+      "shadow"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "`/etc/shadow` stores password hashes."
+  },
+  {
+    "question": "🐧 **What is** the default shell for most Linux distributions?",
+    "answer": "bash",
+    "accepted": [
+      "bash",
+      "sh",
+      "zsh"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Bash** is the most common shell."
+  },
+  {
+    "question": "🐧 **What is** the command to **become root** in Linux?",
+    "answer": "sudo",
+    "accepted": [
+      "sudo",
+      "su"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`sudo` runs commands as root."
+  },
+  {
+    "question": "🐍 **Which** Python keyword is used to **define a function**?",
+    "answer": "def",
+    "accepted": [
+      "def"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`def` starts a function."
+  },
+  {
+    "question": "🐍 **Which** Python keyword is used to **define a class**?",
+    "answer": "class",
+    "accepted": [
+      "class"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`class` starts a class block."
+  },
+  {
+    "question": "🐍 **What is** the standard indent size in Python (PEP 8)?",
+    "answer": "4 spaces",
+    "accepted": [
+      "4 spaces",
+      "4",
+      "four"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "PEP 8 recommends **4 spaces**."
+  },
+  {
+    "question": "🐍 **Which** Python function is used to **get user input**?",
+    "answer": "input",
+    "accepted": [
+      "input",
+      "input()"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`input()` reads from stdin."
+  },
+  {
+    "question": "🐍 **Which** Python operator is used for **exponentiation**?",
+    "answer": "**",
+    "accepted": [
+      "**"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`**` is the power operator."
+  },
+  {
+    "question": "💛 **Which** JS keyword is used to **define a constant**?",
+    "answer": "const",
+    "accepted": [
+      "const"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`const` defines non-reassignable variables."
+  },
+  {
+    "question": "💛 **Which** JS function is used to **print to console**?",
+    "answer": "console.log",
+    "accepted": [
+      "console.log",
+      "log"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`console.log()` is for debugging output."
+  },
+  {
+    "question": "🌐 **Which** HTML tag is used for the **largest heading**?",
+    "answer": "h1",
+    "accepted": [
+      "h1"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`<h1>` is the top-level heading."
+  },
+  {
+    "question": "🌐 **Which** HTML tag is used to **link to another page**?",
+    "answer": "a",
+    "accepted": [
+      "a",
+      "anchor"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`<a>` tag creates hyperlinks."
+  },
+  {
+    "question": "🌐 **Which** CSS property changes the **text color**?",
+    "answer": "color",
+    "accepted": [
+      "color"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`color` property sets text hue."
+  },
+  {
+    "question": "🌐 **Which** CSS property changes the **background color**?",
+    "answer": "background-color",
+    "accepted": [
+      "background-color",
+      "bg"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`background-color` sets the base color."
+  },
+  {
+    "question": "💻 **What is** the term for a **64-bit integer** in C?",
+    "answer": "long long",
+    "accepted": [
+      "long long",
+      "int64_t"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "`long long` is 8 bytes in C."
+  },
+  {
+    "question": "💻 **What is** the return type of a function that **returns nothing**?",
+    "answer": "void",
+    "accepted": [
+      "void"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`void` signifies no return value."
+  },
+  {
+    "question": "💣 **Which** security mechanism randomizes the **location of memory structures**?",
+    "answer": "aslr",
+    "accepted": [
+      "aslr",
+      "address space layout randomization",
+      "address randomization"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ASLR** (Address Space Layout Randomization) makes exploit addresses unpredictable."
+  },
+  {
+    "question": "💣 **Which** hardware feature prevents **code execution on the stack**?",
+    "answer": "nx bit",
+    "accepted": [
+      "nx bit",
+      "nx",
+      "dep",
+      "data execution prevention"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**NX/DEP** marks the stack as non-executable — shellcode injected there cannot run."
+  },
+  {
+    "question": "💣 **What is** the primary goal of **Return Oriented Programming** (ROP)?",
+    "answer": "redirect code flow",
+    "accepted": [
+      "redirect code flow",
+      "rop",
+      "rop chain"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ROP** chains gadgets to bypass NX/DEP."
+  },
+  {
+    "question": "💣 **Which** vulnerability involves **overwriting the saved return pointer**?",
+    "answer": "stack buffer overflow",
+    "accepted": [
+      "stack buffer overflow",
+      "bof"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "A **stack buffer overflow** writes past a buffer boundary, overwriting the return address."
+  },
+  {
+    "question": "💣 **What is** the term for exploiting memory **after it has been released**?",
+    "answer": "use-after-free",
+    "accepted": [
+      "use-after-free",
+      "uaf"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**UAF** (Use-After-Free) dereferences a pointer after the memory was freed."
+  },
+  {
+    "question": "💣 **Which** vulnerability occurs when **uncontrolled user input** is passed to `printf`?",
+    "answer": "format string vulnerability",
+    "accepted": [
+      "format string vulnerability",
+      "printf vulnerability"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Passing user input as `printf(user_input)` lets attackers read/write arbitrary memory."
+  },
+  {
+    "question": "💣 **Which** protection mechanism uses a **random value** before the return address?",
+    "answer": "stack canary",
+    "accepted": [
+      "stack canary",
+      "canary",
+      "stack cookie"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "A **stack canary** is a random value placed before the return address."
+  },
+  {
+    "question": "💣 **What is** the technique of **flooding the heap** with shellcode?",
+    "answer": "heap spraying",
+    "accepted": [
+      "heap spraying",
+      "heap spray"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Heap spraying** increases the odds that a jump lands in shellcode."
+  },
+  {
+    "question": "💣 **Which** vulnerability involves **corrupting adjacent heap blocks**?",
+    "answer": "heap overflow",
+    "accepted": [
+      "heap overflow",
+      "heap buffer overflow"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "A **heap overflow** corrupts adjacent heap structures."
+  },
+  {
+    "question": "💣 **Which** CPU register holds the **64-bit instruction pointer**?",
+    "answer": "rip",
+    "accepted": [
+      "rip",
+      "instruction pointer"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**RIP** is the 64-bit instruction pointer — controlling it equals code execution."
+  },
+  {
+    "question": "🕷️ **What is** the full name for the web vulnerability **SSTI**?",
+    "answer": "template injection",
+    "accepted": [
+      "template injection",
+      "server side template injection",
+      "ssti"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**SSTI** (Server Side Template Injection) injects code into template engines."
+  },
+  {
+    "question": "🕷️ **Which** attack uses `../` to bypass **path restrictions**?",
+    "answer": "path traversal",
+    "accepted": [
+      "path traversal",
+      "directory traversal"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Path traversal** (../) reads files outside the intended directory."
+  },
+  {
+    "question": "🕷️ **What is** the full name for the web vulnerability **XXE**?",
+    "answer": "xml external entity",
+    "accepted": [
+      "xml external entity",
+      "xxe"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**XXE** (XML External Entity) exploits XML parsers that process external declarations."
+  },
+  {
+    "question": "🕷️ **Which** vulnerability uses unvalidated **redirect parameters**?",
+    "answer": "open redirect",
+    "accepted": [
+      "open redirect"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "An **open redirect** lets attackers redirect victims to malicious sites."
+  },
+  {
+    "question": "🕷️ **What is** the term for a **desync attack** between proxies?",
+    "answer": "http request smuggling",
+    "accepted": [
+      "http request smuggling",
+      "request smuggling"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**HTTP Request Smuggling** abuses front-end and back-end parsing differences."
+  },
+  {
+    "question": "🕷️ **What is** the full name for the acronym **CORS**?",
+    "answer": "resource sharing",
+    "accepted": [
+      "cross origin resource sharing",
+      "cors"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**CORS** (Cross-Origin Resource Sharing) controls cross-origin API access."
+  },
+  {
+    "question": "🕷️ **Which** SQL injection type stores a payload to be **triggered later**?",
+    "answer": "second order sqli",
+    "accepted": [
+      "second order sqli",
+      "stored sqli"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Second-order SQLi** stores malicious input that gets executed later."
+  },
+  {
+    "question": "🕷️ **Which** JWT attack involves setting the **header algorithm to none**?",
+    "answer": "none algorithm attack",
+    "accepted": [
+      "none algorithm attack",
+      "alg none"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Some JWT libs accept `\"alg\":\"none\"`, bypassing signature verification."
+  },
+  {
+    "question": "🕷️ **What is** the term for corrupting **cached web responses**?",
+    "answer": "cache poisoning",
+    "accepted": [
+      "cache poisoning"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Web cache poisoning** stores a malicious response in a cache."
+  },
+  {
+    "question": "🕷️ **Which** attack exploits a **dangling DNS record**?",
+    "answer": "subdomain takeover",
+    "accepted": [
+      "subdomain takeover"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Subdomain takeover** occurs via unclaimed external service records."
+  },
+  {
+    "question": "🛠️ **Which** Nmap flag is used for **service version detection**?",
+    "answer": "-sV",
+    "accepted": [
+      "-sv",
+      "version detection"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "`-sV` probes open ports to determine the exact service version."
+  },
+  {
+    "question": "🛠️ **Which** Nmap flag is used for **OS detection**?",
+    "answer": "-O",
+    "accepted": [
+      "-o",
+      "os detection"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "`-O` identifies the target OS by analyzing TCP/IP stack behavior."
+  },
+  {
+    "question": "🛠️ **Which** Nmap flag is used to **scan all 65535 ports**?",
+    "answer": "-p-",
+    "accepted": [
+      "-p-",
+      "all ports"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "`-p-` scans the entire port range instead of just the top 1000."
+  },
+  {
+    "question": "🛠️ **Which** Nmap flag performs a **stealthy SYN scan**?",
+    "answer": "-sS",
+    "accepted": [
+      "-ss",
+      "syn scan",
+      "stealth scan"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "`-sS` sends SYN and awaits SYN-ACK without completing the handshake."
+  },
+  {
+    "question": "🛠️ **What is** the primary function of **Burp Repeater**?",
+    "answer": "resend requests",
+    "accepted": [
+      "resend requests",
+      "replay requests"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Repeater lets you manually modify and resend HTTP requests."
+  },
+  {
+    "question": "🛠️ **Which** Burp Suite tool is used for **automated fuzzing**?",
+    "answer": "intruder",
+    "accepted": [
+      "intruder"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Intruder** automates payloads into request parameters."
+  },
+  {
+    "question": "🛠️ **Which** script is used for **Windows privilege escalation** enumeration?",
+    "answer": "winpeas",
+    "accepted": [
+      "winpeas"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**WinPEAS** automates privilege escalation checks on Windows."
+  },
+  {
+    "question": "🛠️ **Which** script is used for **Linux privilege escalation** enumeration?",
+    "answer": "linpeas",
+    "accepted": [
+      "linpeas"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**LinPEAS** automates privilege escalation checks on Linux."
+  },
+  {
+    "question": "🛠️ **Which** project catalogs **abusable Unix binaries**?",
+    "answer": "gtfobins",
+    "accepted": [
+      "gtfobins"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**GTFOBins** lists binaries that can be abused for shell escape."
+  },
+  {
+    "question": "🛠️ **Which** tool is used for **OSINT** on domain emails and subdomains?",
+    "answer": "theharvester",
+    "accepted": [
+      "theharvester"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**theHarvester** collects emails and subdomains from public sources."
+  },
+  {
+    "question": "🔑 **Which** attack targets a **weak RNG** sharing prime factors in RSA?",
+    "answer": "common factor attack",
+    "accepted": [
+      "common factor attack",
+      "weak rng"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Shared prime factors allow modulus factoring via GCD."
+  },
+  {
+    "question": "🔑 **What is** the term for an attack using **padding error leaks**?",
+    "answer": "padding oracle",
+    "accepted": [
+      "padding oracle"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "A **padding oracle** decrypts ciphertext byte-by-byte using error logs."
+  },
+  {
+    "question": "🔑 **What is** the full name for the acronym **HMAC**?",
+    "answer": "hash based message authentication code",
+    "accepted": [
+      "hash based message authentication code",
+      "hmac"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**HMAC** verifies both the integrity and authenticity of a message."
+  },
+  {
+    "question": "🔑 **Which** attack finds **hash collisions** using the birthday paradox?",
+    "answer": "birthday attack",
+    "accepted": [
+      "birthday attack"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **birthday attack** exploits collision probability over large sets."
+  },
+  {
+    "question": "🔑 **What is** the full name for the abbreviation **PFS**?",
+    "answer": "perfect forward secrecy",
+    "accepted": [
+      "perfect forward secrecy",
+      "pfs"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**PFS** ensures past session keys remain secure if the main key is leaked."
+  },
+  {
+    "question": "🔍 **Which** forensic tool is used for **disk image analysis**?",
+    "answer": "autopsy",
+    "accepted": [
+      "autopsy"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Autopsy** is a standard GUI tool for conducting forensic disk analysis."
+  },
+  {
+    "question": "🔍 **Which** Linux command displays the **user login history**?",
+    "answer": "last",
+    "accepted": [
+      "last"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The `last` command reads wtmp to show all recent login/logout records."
+  },
+  {
+    "question": "🔍 **Which** file records **authentication events** on Debian?",
+    "answer": "/var/log/auth.log",
+    "accepted": [
+      "/var/log/auth.log",
+      "auth.log"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**auth.log** tracks all sudo, SSH, and basic login attempts."
+  },
+  {
+    "question": "🔍 **What is** the term for data stored in **RAM**?",
+    "answer": "volatile memory",
+    "accepted": [
+      "volatile memory",
+      "ram"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Volatile memory** is data lost once a system is powered off."
+  },
+  {
+    "question": "🔍 **Which** framework is used for **RAM dump analysis**?",
+    "answer": "volatility",
+    "accepted": [
+      "volatility"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Volatility** is a framework for extracting digital artifacts from RAM images."
+  },
+  {
+    "question": "🪟 **Which** Windows registry hive stores **system-wide software** settings?",
+    "answer": "hkey_local_machine",
+    "accepted": [
+      "hkey_local_machine",
+      "hklm"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**HKLM** stores global machine-wide configuration and software data."
+  },
+  {
+    "question": "🪟 **Which** Windows file stores **local password hashes**?",
+    "answer": "sam",
+    "accepted": [
+      "sam",
+      "sam database"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **SAM** (Security Account Manager) file holds local user hashes."
+  },
+  {
+    "question": "🪟 **Which** `whoami` flag displays **all group and privilege info**?",
+    "answer": "/all",
+    "accepted": [
+      "/all"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "`whoami /all` lists groups, privileges, and SIDs of the current user."
+  },
+  {
+    "question": "🪟 **What is** the technique of extracting hashes by **dumping LSASS**?",
+    "answer": "lsass dumping",
+    "accepted": [
+      "lsass dumping",
+      "lsass dump"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Dumping **LSASS** memory reveals plain-text or hashed user credentials."
+  },
+  {
+    "question": "🪟 **Which** authentication protocol is abused in a **pass-the-hash** attack?",
+    "answer": "ntlm",
+    "accepted": [
+      "ntlm"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Pass-the-Hash** (PtH) replays NTLM hashes for domain authentication."
+  },
+  {
+    "question": "🏢 **Which** AD attack forges a **TGT using the KRBTGT hash**?",
+    "answer": "golden ticket",
+    "accepted": [
+      "golden ticket"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Golden Tickets** grant persistent, domain-wide administrative access."
+  },
+  {
+    "question": "🏢 **Which** AD attack forges a **TGS for a specific service**?",
+    "answer": "silver ticket",
+    "accepted": [
+      "silver ticket"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Silver Tickets** target specific service accounts like SMB or HTTP."
+  },
+  {
+    "question": "🏢 **Which** AD attack **abuses ACL permissions** for DCSync?",
+    "answer": "acl abuse",
+    "accepted": [
+      "acl abuse",
+      "writedacl abuse"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ACL abuse** involves granting oneself replication rights via WriteDACL."
+  },
+  {
+    "question": "🏢 **Which** AD attack replicates the **NTDS.dit database**?",
+    "answer": "dcsync",
+    "accepted": [
+      "dcsync"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**DCSync** mimics a domain controller to pull hashes via replication."
+  },
+  {
+    "question": "🏢 **Which** attack targets accounts with **pre-auth disabled**?",
+    "answer": "as-rep roasting",
+    "accepted": [
+      "as-rep roasting",
+      "asrep roasting"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**AS-REP roasting** retrieves crackable hashes from accounts with pre-auth off."
+  },
+  {
+    "question": "🏢 **What is** the full name for the abbreviation **LOLBAS**?",
+    "answer": "living off the land binaries",
+    "accepted": [
+      "living off the land binaries",
+      "lolbas"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "LOLBAS uses native, signed binaries for attacker activities."
+  },
+  {
+    "question": "🏢 **Which** attack **relays captured authentication**?",
+    "answer": "ntlm relay",
+    "accepted": [
+      "ntlm relay",
+      "smb relay",
+      "ntlm relaying"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**NTLM Relay** redirects authentication attempts to other targets."
+  },
+  {
+    "question": "🏢 **Which** Impacket tool is used for **NTLM relay attacks**?",
+    "answer": "ntlmrelayx",
+    "accepted": [
+      "ntlmrelayx"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ntlmrelayx** is the standard Impacket tool for relaying auth."
+  },
+  {
+    "question": "🏢 **Which** AD feature is abused to impersonate users?",
+    "answer": "constrained delegation",
+    "accepted": [
+      "constrained delegation",
+      "s4u2proxy"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Delegation abuse allows attackers to impersonate users to specific services."
+  },
+  {
+    "question": "🏢 **What is** the default **machine account quota** per user in AD?",
+    "answer": "10",
+    "accepted": [
+      "10",
+      "ten"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The default machine quota allows any domain user to add 10 computer objects."
+  },
+  {
+    "question": "☁️ **What is** the full name for the cloud abbreviation **IMDS**?",
+    "answer": "instance metadata service",
+    "accepted": [
+      "instance metadata service",
+      "imds"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**IMDS** serves metadata at `http://169.254.169.254`."
+  },
+  {
+    "question": "☁️ **Which** attack steals **IAM keys via an SSRF**?",
+    "answer": "ssrf to imds",
+    "accepted": [
+      "ssrf to imds"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "SSRF to **IMDS** endpoints leaks associated cloud role credentials."
+  },
+  {
+    "question": "☁️ **What is** the term for abusing permissions to **gain AWS admin**?",
+    "answer": "iam privesc",
+    "accepted": [
+      "iam privesc"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**IAM PrivEsc** involves escalating privileges within a cloud environment."
+  },
+  {
+    "question": "☁️ **What is** the term for **breaking out of a container**?",
+    "answer": "container escape",
+    "accepted": [
+      "container escape",
+      "docker escape"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Escapes move an attacker from containerized to host system access."
+  },
+  {
+    "question": "☁️ **Which** Docker flag facilitates **trivial container escapes**?",
+    "answer": "--privileged",
+    "accepted": [
+      "--privileged"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Using `--privileged` grants a container near-full host capabilities."
+  },
+  {
+    "question": "💣 **What is** the full name for the exploit technique **ret2libc**?",
+    "answer": "return to libc",
+    "accepted": [
+      "return to libc",
+      "ret2libc"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ret2libc** jumps to shared library functions like `system()`."
+  },
+  {
+    "question": "💣 **What is** the term for leaking memory to **defeat ASLR**?",
+    "answer": "libc leak",
+    "accepted": [
+      "libc leak",
+      "aslr bypass"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Leaks reveal library base addresses for precision exploitation."
+  },
+  {
+    "question": "💣 **What is** the full name for the binary structure **GOT**?",
+    "answer": "global offset table",
+    "accepted": [
+      "global offset table",
+      "got"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**GOT** (Global Offset Table) resolves external function addresses."
+  },
+  {
+    "question": "💣 **What is** the full name for the binary structure **PIE**?",
+    "answer": "position independent executable",
+    "accepted": [
+      "position independent executable",
+      "pie"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**PIE** randomizes the base address of the main binary itself."
+  },
+  {
+    "question": "💣 **What is** the purpose of the `cyclic()` function in pwntools?",
+    "answer": "find overflow offset",
+    "accepted": [
+      "find overflow offset",
+      "cyclic pattern"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Cyclic sequences pinpoint the exact offset of instruction pointer control."
+  },
+  {
+    "question": "🌐 **What is** the term for advertising **false internet routes**?",
+    "answer": "bgp hijacking",
+    "accepted": [
+      "bgp hijacking"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**BGP hijacking** redirects global traffic through attacker infrastructure."
+  },
+  {
+    "question": "🌐 **Which** protocol is spoofed to associate an **attacker MAC with an IP**?",
+    "answer": "arp spoofing",
+    "accepted": [
+      "arp spoofing",
+      "arp",
+      "address resolution protocol"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ARP spoofing** enables MITM attacks on local networks."
+  },
+  {
+    "question": "🌐 **What is** the term for injecting **false records** into a DNS cache?",
+    "answer": "dns poisoning",
+    "accepted": [
+      "dns poisoning",
+      "dns cache poisoning"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**DNS poisoning** redirects visitors to attacker-controlled sites."
+  },
+  {
+    "question": "🌐 **What is** the technique of accessing **other VLANs via double tagging**?",
+    "answer": "vlan hopping",
+    "accepted": [
+      "vlan hopping",
+      "double tagging"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**VLAN hopping** bypasses network isolation boundaries."
+  },
+  {
+    "question": "🌐 **Which** TCP flag is sent to indicate a **closed port**?",
+    "answer": "rst",
+    "accepted": [
+      "rst",
+      "reset",
+      "rst/ack"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **RST** (Reset) flag signifies that a port is not accepting connections."
+  },
+  {
+    "question": "💻 **What is** the full name for the bug acronym **TOCTOU**?",
+    "answer": "time of check to time of use",
+    "accepted": [
+      "time of check to time of use",
+      "toctou"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**TOCTOU** is a race condition between checking a resource and using it."
+  },
+  {
+    "question": "💻 **What is** the term for allocated memory that is **never released**?",
+    "answer": "memory leak",
+    "accepted": [
+      "memory leak"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Memory leaks cause processes to consume more RAM over time."
+  },
+  {
+    "question": "💻 **What is** the term for an integer exceeding its max value?",
+    "answer": "integer overflow",
+    "accepted": [
+      "integer overflow",
+      "integer wrap"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Overflows cause values to wrap around, creating logical errors."
+  },
+  {
+    "question": "💻 **What is** the term for a crash caused by **accessing address zero**?",
+    "answer": "null pointer dereference",
+    "accepted": [
+      "null pointer dereference"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Dereferencing NULL triggers access violations in nearly all software."
+  },
+  {
+    "question": "💻 **What is** the term for a **pointer to memory** that has been freed?",
+    "answer": "dangling pointer",
+    "accepted": [
+      "dangling pointer"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Dangling pointers** often lead to Use-After-Free vulnerabilities."
+  },
+  {
+    "question": "☠️ **What is** the term for malware that runs **entirely in RAM**?",
+    "answer": "fileless malware",
+    "accepted": [
+      "fileless malware"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Fileless malware** avoids detection by not leaving traces on disk."
+  },
+  {
+    "question": "☠️ **Which** Windows tool is most **frequently abused** by LOLbins?",
+    "answer": "powershell",
+    "accepted": [
+      "powershell"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**PowerShell** is the primary target for post-exploitation system abuse."
+  },
+  {
+    "question": "☠️ **What is** the technique of loading a malicious module into **another process**?",
+    "answer": "dll injection",
+    "accepted": [
+      "dll injection"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**DLL injection** executes code within the context of a trusted process."
+  },
+  {
+    "question": "☠️ **Which** technique replaces a **trusted process's memory**?",
+    "answer": "process hollowing",
+    "accepted": [
+      "process hollowing"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Process hollowing** hides malicious code within a legitimate process shell."
+  },
+  {
+    "question": "☠️ **What is** the term for malware that **hides its existence**?",
+    "answer": "rootkit",
+    "accepted": [
+      "rootkit"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Rootkits** intercept kernel calls to remain invisible to the user."
+  },
+  {
+    "question": "☠️ **What is** the term for malware periodically **contacting its C2**?",
+    "answer": "beaconing",
+    "accepted": [
+      "beaconing"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Beaconing** is the polling of a command-and-control server for tasks."
+  },
+  {
+    "question": "☠️ **What is** the technique of hiding traffic **behind a major CDN**?",
+    "answer": "domain fronting",
+    "accepted": [
+      "domain fronting"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Domain fronting** masks malicious traffic as legitimate CDN requests."
+  },
+  {
+    "question": "☠️ **What is** the term for malware that **downloads a second-stage**?",
+    "answer": "dropper",
+    "accepted": [
+      "dropper"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Droppers** are initial stages used to install more complex malware."
+  },
+  {
+    "question": "☠️ **What is** the term for using **legitimate system tools** for attacks?",
+    "answer": "living off the land",
+    "accepted": [
+      "living off the land",
+      "lotl"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**LotL** avoids detection by using the system's own tools for exploitation."
+  },
+  {
+    "question": "☠️ **What is** the category of techniques used to **avoid detection**?",
+    "answer": "defense evasion",
+    "accepted": [
+      "defense evasion",
+      "evasion"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Defense evasion** encompasses all methods used to bypass security tools."
+  },
+  {
+    "question": "🔬 **What is** the purpose of the **MITRE ATT&CK** matrix?",
+    "answer": "adversary techniques",
+    "accepted": [
+      "adversary techniques",
+      "mitre",
+      "mitre att&ck"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**MITRE ATT&CK** catalogs real-world adversary behaviors and tactics."
+  },
+  {
+    "question": "🔬 **What is** the process of **identifying and prioritizing** risks?",
+    "answer": "threat modeling",
+    "accepted": [
+      "threat modeling"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Threat modeling** designs security based on probable attack vectors."
+  },
+  {
+    "question": "🔬 **What is** the security framework represented by **STRIDE**?",
+    "answer": "security threat framework",
+    "accepted": [
+      "security threat framework",
+      "stride"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "STRIDE stands for Spoofing, Tampering, etc."
+  },
+  {
+    "question": "🔬 **Which** system is used for **scoring technical vulnerability** severity?",
+    "answer": "cvss",
+    "accepted": [
+      "cvss",
+      "vulnerability scoring"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**CVSS** (Common Vulnerability Scoring System) assigns risk levels to bugs."
+  },
+  {
+    "question": "🔬 **What is** the full name of the **OSCP** certification?",
+    "answer": "offensive security certified professional",
+    "accepted": [
+      "offensive security certified professional",
+      "oscp"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "OSCP is widely considered the industry standard for pen-testing."
+  },
+  {
+    "question": "🔬 **Which** attack compromises a target via a **third-party dependency**?",
+    "answer": "supply chain attack",
+    "accepted": [
+      "supply chain attack"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Supply chain attacks** infect users via trusted upstream packages."
+  },
+  {
+    "question": "🔬 **What is** the technical cause of the **Log4Shell** vulnerability?",
+    "answer": "jndi injection",
+    "accepted": [
+      "jndi injection",
+      "log4j"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Log4Shell** utilized JNDI lookups in log4j to achieve RCE."
+  },
+  {
+    "question": "🔬 **What is** the term for a **fake certificate** from a compromised CA?",
+    "answer": "rogue certificate",
+    "accepted": [
+      "rogue certificate",
+      "rogue ca"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Rogue certificates** enable undetectable man-in-the-middle attacks."
+  },
+  {
+    "question": "🔬 **What is** the policy of trusting **only specific certificates**?",
+    "answer": "certificate pinning",
+    "accepted": [
+      "certificate pinning"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Certificate pinning** verifies exactly which certificate an app expects."
+  },
+  {
+    "question": "🔬 **What is** the primary motto of the **Zero Trust** model?",
+    "answer": "never trust verify",
+    "accepted": [
+      "never trust always verify",
+      "never trust verify",
+      "zero trust"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Zero Trust** assumes a breach environment and verifies all users."
+  },
+  {
+    "question": "🧪 **What is** the term for simulating an attack to **test defenses**?",
+    "answer": "red teaming",
+    "accepted": [
+      "red teaming",
+      "penetration testing",
+      "pentest",
+      "red team"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Red teaming** provides a realistic evaluation of a company's defenses."
+  },
+  {
+    "question": "🧪 **Which** cybersecurity role is focused on **detection and defense**?",
+    "answer": "blue team",
+    "accepted": [
+      "blue team",
+      "blue teaming"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Blue teams** operate security centers and defend infrastructure."
+  },
+  {
+    "question": "🧪 **Which** cybersecurity role **simulates attacks** for assessment?",
+    "answer": "red team",
+    "accepted": [
+      "red team",
+      "red teaming"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Red teams** act as adversaries to test organizational resilience."
+  },
+  {
+    "question": "🧪 **Which** tool is used for **network packet sniffing**?",
+    "answer": "wireshark",
+    "accepted": [
+      "wireshark",
+      "tshark",
+      "tcpdump"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Wireshark** is the industry standard for network protocol analysis."
+  },
+  {
+    "question": "🧪 **Which** protocol is used for **secure shell** access?",
+    "answer": "ssh",
+    "accepted": [
+      "ssh",
+      "secure shell"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**SSH** provides encrypted remote command lines."
+  },
+  {
+    "question": "🧪 **What is** the term for **exploiting a computer system**?",
+    "answer": "exploitation",
+    "accepted": [
+      "exploitation",
+      "hacking",
+      "exploit"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Exploitation** is the use of a bug to gain control over a system."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the x64 return address offset relative to RBP?",
+    "answer": "8 bytes",
+    "accepted": [
+      "8 bytes",
+      "8",
+      "8-bytes",
+      "eight bytes"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "In x64, return address is exactly **8 bytes** above RBP.",
+    "hint": "Think about pointer size on x64."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction triggers a software breakpoint exception in x86?",
+    "answer": "int3",
+    "accepted": [
+      "int3",
+      "int 3",
+      "0xcc",
+      "int 3h"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**INT3** (0xCC) is the standard software breakpoint.",
+    "hint": "1-byte opcode, often 0xCC."
+  },
+  {
+    "question": "💀 **NULL**: **Which** printf specifier is used to write to memory?",
+    "answer": "%n",
+    "accepted": [
+      "%n",
+      "percent n"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **%n** specifier writes the bytes printed so far to the provided address.",
+    "hint": "Writes char count to a pointer."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the 4-byte hex signature for PNG files?",
+    "answer": "89504E47",
+    "accepted": [
+      "89 50 4e 47",
+      "89504e47",
+      "0x89504e47"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The PNG file signature is **89 50 4E 47**.",
+    "hint": "\\x89PNG."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows API is used to inject a thread into another process?",
+    "answer": "CreateRemoteThread",
+    "accepted": [
+      "createremotethread",
+      "create remote thread"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**CreateRemoteThread** is the standard for remote thread injection.",
+    "hint": "Create + Remote + Thread."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the hex opcode for the x86 NOP instruction?",
+    "answer": "0x90",
+    "accepted": [
+      "0x90",
+      "90",
+      "0x90h"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**0x90** is the hex opcode for No-Operation (NOP).",
+    "hint": "1-byte padding instruction."
+  },
+  {
+    "question": "💀 **NULL**: **Which** GDB command displays detailed stack frame information?",
+    "answer": "info frame",
+    "accepted": [
+      "info frame",
+      "i f"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`info frame` displays registers and offsets for the current frame.",
+    "hint": "info + frame."
+  },
+  {
+    "question": "💀 **NULL**: **Which** kernel protection prevents the execution of user-mode pages?",
+    "answer": "SMEP",
+    "accepted": [
+      "smep",
+      "supervisor mode execution protection"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**SMEP** (Supervisor Mode Execution Protection) blocks user-page execution in kernel mode.",
+    "hint": "S_E_P."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the Ghidra feature that converts assembly to C?",
+    "answer": "Decompiler",
+    "accepted": [
+      "decompiler",
+      "decompilation"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Decompiler** window shows architecture-neutral C-like code.",
+    "hint": "D__________."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the 2-byte hex magic sequence for ZIP files?",
+    "answer": "504B",
+    "accepted": [
+      "50 4b",
+      "504b",
+      "PK"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "ZIP files start with **50 4B** (PK).",
+    "hint": "Phil Katz."
+  },
+  {
+    "question": "💀 **NULL**: **Which** x86 instruction is used for legacy Linux syscalls?",
+    "answer": "int 0x80",
+    "accepted": [
+      "int 0x80",
+      "int 0x80h",
+      "cd 80"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**INT 0x80** notifies the kernel to handle a syscall in 32-bit Linux.",
+    "hint": "Trigger interrupt 128."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows structure is found at `fs:[0x30]` in x86?",
+    "answer": "peb",
+    "accepted": [
+      "peb",
+      "process environment block"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **PEB** contains process state and is found via the thread info block.",
+    "hint": "Process Environment Block."
+  },
+  {
+    "question": "💀 **NULL**: **Which** pointer table stores addresses of imported library functions?",
+    "answer": "iat",
+    "accepted": [
+      "iat",
+      "import address table"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **IAT** is filled by the loader with resolved function addresses.",
+    "hint": "Import Address Table."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the 4-byte hex magic for ELF binaries?",
+    "answer": "7F454C46",
+    "accepted": [
+      "7f 45 4c 46",
+      "7f454c46",
+      ".elf"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "ELF binaries always start with **7F 45 4C 46**.",
+    "hint": "\\x7fELF."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Wireshark filter syntax isolates HTTP POST requests?",
+    "answer": "http.request.method == \"POST\"",
+    "accepted": [
+      "http.request.method == \"POST\"",
+      "http.request.method == POST"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`http.request.method == \"POST\"` filters for data submission.",
+    "hint": "Check request method."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Metasploit payload provides a full Ruby-based API?",
+    "answer": "meterpreter",
+    "accepted": [
+      "meterpreter"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Meterpreter** is a staged, in-memory payload for advanced interaction.",
+    "hint": "Advanced post-ex payload."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Nmap script category is used for vulnerability scanning?",
+    "answer": "vuln",
+    "accepted": [
+      "vuln",
+      "vulns"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`--script=vuln` runs scripts designed to detect CVEs.",
+    "hint": "v___ category."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the hex magic for Java class files?",
+    "answer": "CAFEBABE",
+    "accepted": [
+      "cafebabe",
+      "cafe babe"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Java classes always start with the magic **CAFEBABE**.",
+    "hint": "CAFE + BABE."
+  },
+  {
+    "question": "💀 **NULL**: **Which** ROP gadget is universally required to chain instructions?",
+    "answer": "ret",
+    "accepted": [
+      "ret",
+      "return",
+      "c3"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Gadgets must end in a **ret** (0xC3) to pass control to the next address.",
+    "hint": "pops the stack to RIP."
+  },
+  {
+    "question": "💀 **NULL**: **Which** CPU mode allows direct access to hardware and memory?",
+    "answer": "kernel mode",
+    "accepted": [
+      "kernel mode",
+      "ring 0",
+      "supervisor mode"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Ring 0** (Kernel Mode) has unrestricted access to the CPU and memory.",
+    "hint": "Ring 0."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the Windows process that handles logins?",
+    "answer": "lsass.exe",
+    "accepted": [
+      "lsass.exe",
+      "lsass"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**LSASS** (Local Security Authority Subsystem Service) manages security policies.",
+    "hint": "Target for credential dumping."
+  },
+  {
+    "question": "💀 **NULL**: **Which** file on Linux stores password hash aging information?",
+    "answer": "/etc/shadow",
+    "accepted": [
+      "/etc/shadow",
+      "shadow"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**/etc/shadow** stores the actual encrypted password hashes for users.",
+    "hint": "/etc/s_____."
+  },
+  {
+    "question": "💀 **NULL**: **Which** AD tool is used to visualize attack paths?",
+    "answer": "bloodhound",
+    "accepted": [
+      "bloodhound",
+      "sharphound"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**BloodHound** uses graph theory to find complex AD relationship paths.",
+    "hint": "Uses graph theory."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for a 1024-byte block of NOP instructions?",
+    "answer": "nop sled",
+    "accepted": [
+      "nop sled",
+      "nop slide"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "A **NOP sled** ensures that an imprecise jump still lands on executable code.",
+    "hint": "Used in buffer overflows."
+  },
+  {
+    "question": "💀 **NULL**: **Which** port is used by the **SMB** protocol?",
+    "answer": "445",
+    "accepted": [
+      "445"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Port 445** is the modern port for SMB over TCP.",
+    "hint": "Active Directory file sharing."
+  },
+  {
+    "question": "💀 **NULL**: **Which** cipher was broken by the Enigma machine during WWII?",
+    "answer": "enigma",
+    "accepted": [
+      "enigma"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Enigma** cipher was cracked at Bletchley Park using \"bombes\".",
+    "hint": "The machine name."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the first computer worm to spread on the internet?",
+    "answer": "morris worm",
+    "accepted": [
+      "morris worm",
+      "morris"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Morris Worm** exploited vulnerabilities in UNIX `sendmail` and `finger`.",
+    "hint": "Released in 1988."
+  },
+  {
+    "question": "💀 **NULL**: **Which** logical operation is primarily used in XOR encryption?",
+    "answer": "xor",
+    "accepted": [
+      "xor",
+      "exclusive or"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**XOR** is reversible, making it ideal for simple symmetric encryption.",
+    "hint": "Its in the name."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows utility can be used to download files via the command line?",
+    "answer": "certutil",
+    "accepted": [
+      "certutil",
+      "bitsadmin",
+      "curl",
+      "powershell"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`certutil -urlcache -f [URL]` is a common LOLBIN technique for downloads.",
+    "hint": "Meant for certificates."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Linux signal is used to forcefully terminate a process?",
+    "answer": "sigkill",
+    "accepted": [
+      "sigkill",
+      "9",
+      "-9",
+      "kill -9"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**SIGKILL** (Signal 9) cannot be caught or ignored by the process.",
+    "hint": "Kill -9."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the default encryption algorithm used by WPA3?",
+    "answer": "sae",
+    "accepted": [
+      "sae",
+      "simultaneous authentication of equals"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**SAE** (Simultaneous Authentication of Equals) replaces the weak WPA2 PSK handshake.",
+    "hint": "Dragonfly handshake."
+  },
+  {
+    "question": "💀 **NULL**: **Which** database stores Windows configuration and user settings?",
+    "answer": "registry",
+    "accepted": [
+      "registry",
+      "windows registry"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Windows Registry** stores kernel, driver, and application settings.",
+    "hint": "Hierarchical database."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Python library is the standard for network security automation?",
+    "answer": "scapy",
+    "accepted": [
+      "scapy"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Scapy** can forge, sniff, and dissect almost any network protocol.",
+    "hint": "Packet manipulation."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the 3-letter acronym for the security of smart cards?",
+    "answer": "hsm",
+    "accepted": [
+      "hsm",
+      "hardware security module"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "An **HSM** provides secure key storage and cryptographic processing.",
+    "hint": "Hardware Security Module."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Bash command lists all environmental variables?",
+    "answer": "env",
+    "accepted": [
+      "env",
+      "printenv",
+      "export"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`env` or `printenv` displays the current shell environment variables.",
+    "hint": "Short for environment."
+  },
+  {
+    "question": "💀 **NULL**: **Which** hashing algorithm is commonly used for File Integrity Monitoring?",
+    "answer": "sha256",
+    "accepted": [
+      "sha256",
+      "sha-256",
+      "md5",
+      "sha1"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**SHA-256** is currently the standard for verifying file integrity.",
+    "hint": "256 bits."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for a network designed to lure attackers?",
+    "answer": "honeynet",
+    "accepted": [
+      "honeynet",
+      "honeypot"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "A **Honeynet** is a controlled network used to study attacker behavior.",
+    "hint": "A network of pots."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Burp Suite component shows all traffic in real-time?",
+    "answer": "proxy",
+    "accepted": [
+      "proxy",
+      "http history"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Proxy** tab history logs all requests made through the tool.",
+    "hint": "Interception point."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows process is the \"parent\" of all user processes?",
+    "answer": "explorer.exe",
+    "accepted": [
+      "explorer.exe",
+      "explorer"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Explorer.exe** acts as the shell for the user environment.",
+    "hint": "The Desktop environment."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the protocol used for secure web browsing?",
+    "answer": "https",
+    "accepted": [
+      "https",
+      "tls"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**HTTPS** (HTTP over TLS) encrypts web traffic via SSL/TLS certificates.",
+    "hint": "Port 443."
+  },
+  {
+    "question": "💀 **NULL**: **Which** attack involves sending unsolicited messages via Bluetooth?",
+    "answer": "bluejacking",
+    "accepted": [
+      "bluejacking"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Bluejacking** sends data to discoverabled devices, unlike Bluesnarfing which steals it.",
+    "hint": "Blue + Jacking."
+  },
+  {
+    "question": "💀 **NULL**: **Which** encryption standard was developed to replace DES?",
+    "answer": "aes",
+    "accepted": [
+      "aes",
+      "advanced encryption standard",
+      "rijndael"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**AES** (Advanced Encryption Standard) is the global standard for symmetric encryption.",
+    "hint": "Used by the government."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Linux directory contains system configuration files?",
+    "answer": "/etc",
+    "accepted": [
+      "/etc",
+      "etc"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **/etc** directory is the heart of Linux system configuration.",
+    "hint": "Editable Text Configuration."
+  },
+  {
+    "question": "💀 **NULL**: **Which** type of attack exploits the trust between a user and a website?",
+    "answer": "csrf",
+    "accepted": [
+      "csrf",
+      "cross site request forgery",
+      "x s r f"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**CSRF** forces a logged-in user to execute unwanted actions on a trusted site.",
+    "hint": "Forging requests."
+  },
+  {
+    "question": "💀 **NULL**: **Which** tool is the go-to for cracking local Linux password hashes?",
+    "answer": "john the ripper",
+    "accepted": [
+      "john the ripper",
+      "john",
+      "hashcat"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**John the Ripper** is a high-speed, versatile password cracker.",
+    "hint": "JTR."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the feature that allows running Linux on Windows?",
+    "answer": "wsl",
+    "accepted": [
+      "wsl",
+      "windows subsystem for linux",
+      "wsl2"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**WSL** (Windows Subsystem for Linux) provides a native Linux environment in Windows.",
+    "hint": "WSL."
+  },
+  {
+    "question": "💀 **NULL**: **Which** protocol is used to resolve hostnames to IP addresses?",
+    "answer": "dns",
+    "accepted": [
+      "dns",
+      "domain name system"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Domain Name System** (DNS) maps human-readable names to server IPs.",
+    "hint": "Internet phonebook."
+  },
+  {
+    "question": "💀 **NULL**: **Which** 4-byte hex sequence identifies a PDF file?",
+    "answer": "25504446",
+    "accepted": [
+      "25 50 44 46",
+      "25504446",
+      "%pdf"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "PDF files start with the hex magic **25 50 44 46**.",
+    "hint": "%PDF."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is the \"Stack Pointer\" in x86?",
+    "answer": "esp",
+    "accepted": [
+      "esp",
+      "rsp"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**ESP** (or **RSP** in 64-bit) points to the top of the current stack frame.",
+    "hint": "ESP (32-bit)."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the technical term for \"Zombie\" computers in a Botnet?",
+    "answer": "bots",
+    "accepted": [
+      "bots",
+      "zombies",
+      "slaves",
+      "agents"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Bots** are infected systems that receive commands from a C2 server.",
+    "hint": "Infested machines."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Nmap flag performs a \"null\" scan (no flags set)?",
+    "answer": "-sN",
+    "accepted": [
+      "-sn"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`-sN` sends a TCP packet with NO flags set to test firewall behavior.",
+    "hint": "-sN."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows command displays open network connections?",
+    "answer": "netstat",
+    "accepted": [
+      "netstat",
+      "get-nettcpconnection"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`netstat -ano` is very common for finding malicious connections on Windows.",
+    "hint": "Network statistics."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for using social engineering via phone calls?",
+    "answer": "vishing",
+    "accepted": [
+      "vishing",
+      "voice phishing"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Vishing** uses VoIP or phone calls to manipulate victims into leaking data.",
+    "hint": "Voice + Phishing."
+  },
+  {
+    "question": "💀 **NULL**: **Which** port is used by **RDP**?",
+    "answer": "3389",
+    "accepted": [
+      "3389"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Port 3389** is the default for Microsoft Remote Desktop.",
+    "hint": "Remote Desktop Protocol."
+  },
+  {
+    "question": "💀 **NULL**: **Which** logical part of a file system stores file metadata?",
+    "answer": "inode",
+    "accepted": [
+      "inode",
+      "mft"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Inodes** store permissions, size, and location for files on Unix systems.",
+    "hint": "Index node."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the data structure used to manage CPU tasks?",
+    "answer": "scheduler",
+    "accepted": [
+      "scheduler",
+      "task scheduler",
+      "process scheduler"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Scheduler** determines which process gets CPU time and for how long.",
+    "hint": "Schedules work."
+  },
+  {
+    "question": "💀 **NULL**: **Which** attack uses high-power pulses to damage electronics?",
+    "answer": "emp",
+    "accepted": [
+      "emp",
+      "electromagnetic pulse"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "An **EMP** can fry circuits and disrupt communications on a massive scale.",
+    "hint": "Electromagnetic Pulse."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows service is often abused for print-spooler exploits?",
+    "answer": "spooler.exe",
+    "accepted": [
+      "spooler",
+      "print spooler",
+      "spoolsv.exe"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Print Spooler** service was the source of the PrintNightmare RCE.",
+    "hint": "PrintNightmare."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the most common web proxy used for penetration testing?",
+    "answer": "burp suite",
+    "accepted": [
+      "burp suite",
+      "burp",
+      "zap",
+      "owasp zap"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Burp Suite** is the industry standard for intercepting and modifying web traffic.",
+    "hint": "B___ S____."
+  },
+  {
+    "question": "💀 **NULL**: **Which** protocol is used for synchronizing clocks over a network?",
+    "answer": "ntp",
+    "accepted": [
+      "ntp",
+      "network time protocol"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**NTP** (Port 123) ensures that all systems have the same accurate time.",
+    "hint": "Network Time Protocol."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows API is used to allocate memory in a process?",
+    "answer": "VirtualAlloc",
+    "accepted": [
+      "virtualalloc",
+      "virtualallocex"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**VirtualAlloc** is used to request pages of memory from the OS.",
+    "hint": "Allocating virtual memory."
+  },
+  {
+    "question": "💀 **NULL**: **Which** type of encryption uses different keys for encrypting and decrypting?",
+    "answer": "asymmetric",
+    "accepted": [
+      "asymmetric",
+      "public key encryption",
+      "pke"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Asymmetric encryption** (like RSA) uses a public key to encrypt and a private key to decrypt.",
+    "hint": "Public + Private keys."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Linux command is used to change the owner of a file?",
+    "answer": "chown",
+    "accepted": [
+      "chown"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "`chown` modifies which user and group \"own\" a specific file or directory.",
+    "hint": "Change Owner."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows component is responsible for loading DLLs into a process?",
+    "answer": "loader",
+    "accepted": [
+      "loader",
+      "ntdll",
+      "ld-linux"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The OS **Loader** maps executable and library images into memory during startup.",
+    "hint": "L____r."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the hacker group famous for attacking Sony in 2014?",
+    "answer": "lazarus group",
+    "accepted": [
+      "lazarus group",
+      "lazarus",
+      "guardians of peace"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Lazarus Group** is a major APT linked to North Korea, responsible for high-profile hacks.",
+    "hint": "State-sponsored by North Korea."
+  },
+  {
+    "question": "🌐 **Which** protocol is used to map an **IP address to a physical MAC address**?",
+    "answer": "arp",
+    "accepted": [
+      "arp",
+      "address resolution protocol"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ARP** resolves Layer 3 IPs to Layer 2 MACs."
+  },
+  {
+    "question": "🌐 **What is** the full name for the **OSI** model?",
+    "answer": "open systems interconnection",
+    "accepted": [
+      "open systems interconnection",
+      "osi model"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "The **OSI** model defines 7 layers of networking."
+  },
+  {
+    "question": "🌐 **Which** OSI layer is responsible for **routing packets**?",
+    "answer": "network",
+    "accepted": [
+      "network layer",
+      "layer 3",
+      "3"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "Layer 3 handles logic routing and IP addressing."
+  },
+  {
+    "question": "🌐 **Which** OSI layer handles **error-free delivery** of data?",
+    "answer": "transport",
+    "accepted": [
+      "transport layer",
+      "layer 4",
+      "4"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "Layer 4 (TCP) ensures data arrives correctly."
+  },
+  {
+    "question": "🌐 **What is** the term for the **unique 48-bit identifier** of a network card?",
+    "answer": "mac address",
+    "accepted": [
+      "mac address",
+      "mac",
+      "physical address"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **MAC address** is hardcoded into network hardware."
+  },
+  {
+    "question": "🌐 **Which** protocol is used by the `ping` command to test connectivity?",
+    "answer": "icmp",
+    "accepted": [
+      "icmp",
+      "internet control message protocol"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "`ping` uses **ICMP Echo Request** packets."
+  },
+  {
+    "question": "🌐 **Which** port is used by **DNS** for queries?",
+    "answer": "53",
+    "accepted": [
+      "53"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "DNS typically uses **UDP Port 53**."
+  },
+  {
+    "question": "🌐 **Which** DNS record type maps a **hostname to an IPv6 address**?",
+    "answer": "aaaa",
+    "accepted": [
+      "aaaa",
+      "quad a"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **AAAA** record is the IPv6 equivalent of a standard A record."
+  },
+  {
+    "question": "🌐 **Which** DNS record type specifies the **mail server** for a domain?",
+    "answer": "mx",
+    "accepted": [
+      "mx",
+      "mail exchange"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "The **MX** record directs email to the correct server."
+  },
+  {
+    "question": "🌐 **What is** the technique of **redirecting network traffic** by spoofing ARP responses?",
+    "answer": "arp poisoning",
+    "accepted": [
+      "arp poisoning",
+      "arp spoofing"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ARP poisoning** associates an attacker MAC with a target IP."
+  },
+  {
+    "question": "🕷️ **What is** the term for attacking an application by **substituting its logic**?",
+    "answer": "business logic attack",
+    "accepted": [
+      "business logic attack",
+      "logic flaw"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Logic attacks exploit the way a feature is intended to work."
+  },
+  {
+    "question": "🕷️ **Which** web vulnerability allows an attacker to **act on behalf of a user**?",
+    "answer": "csrf",
+    "accepted": [
+      "csrf",
+      "cross site request forgery"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**CSRF** tricks a browser into sending authenticated requests."
+  },
+  {
+    "question": "🕷️ **What is** the primary defense against **SQL injection**?",
+    "answer": "prepared statements",
+    "accepted": [
+      "prepared statements",
+      "parameterized queries",
+      "input validation"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Prepared statements** separate SQL code from user data."
+  },
+  {
+    "question": "🕷️ **Which** web vulnerability involves **injecting malicious scripts** into pages viewed by others?",
+    "answer": "xss",
+    "accepted": [
+      "xss",
+      "cross site scripting"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**XSS** executes JS in the context of the victim's browser."
+  },
+  {
+    "question": "🕷️ **Which** XSS type is **saved on the server** (e.g., in a comment)?",
+    "answer": "stored xss",
+    "accepted": [
+      "stored xss",
+      "persistent xss"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Stored XSS** affects every user who views the infected page."
+  },
+  {
+    "question": "🕷️ **Which** XSS type is **reflected off a URL parameter**?",
+    "answer": "reflected xss",
+    "accepted": [
+      "reflected xss",
+      "non-persistent xss"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Reflected XSS** is typically delivered via a malicious link."
+  },
+  {
+    "question": "🕷️ **Which** web vulnerability involves **loading local files** via a directory parameter?",
+    "answer": "lfi",
+    "accepted": [
+      "lfi",
+      "local file inclusion"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**LFI** allows attackers to read files like `/etc/passwd`."
+  },
+  {
+    "question": "🕷️ **What is** the full name for the vulnerability **IDOR**?",
+    "answer": "insecure direct object reference",
+    "accepted": [
+      "insecure direct object reference",
+      "idor"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**IDOR** occurs when a user can access records by changing an ID."
+  },
+  {
+    "question": "🕷️ **Which** security header is used to **prevent XSS** by restricting script sources?",
+    "answer": "csp",
+    "accepted": [
+      "csp",
+      "content security policy"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "A **Content Security Policy** defines which scripts are trusted."
+  },
+  {
+    "question": "🕷️ **What is** the term for **exploiting the same-origin policy** via proxying?",
+    "answer": "ssrf",
+    "accepted": [
+      "ssrf",
+      "server side request forgery"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**SSRF** forces a server to make requests to internal resources."
+  },
+  {
+    "question": "🔑 **Which** asymmetric algorithm is based on the **difficulty of factoring large primes**?",
+    "answer": "rsa",
+    "accepted": [
+      "rsa",
+      "rivest shamir adleman"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**RSA** relies on prime factorization for security."
+  },
+  {
+    "question": "🔑 **Which** cryptographic principle ensures that **one bit change** affects half the output bits?",
+    "answer": "avalanche effect",
+    "accepted": [
+      "avalanche effect"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **avalanche effect** is critical for strong block ciphers."
+  },
+  {
+    "question": "🔑 **What is** the name of the **first block cipher** standard (now deprecated)?",
+    "answer": "des",
+    "accepted": [
+      "des",
+      "data encryption standard"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**DES** was replaced by AES due to its small 56-bit key."
+  },
+  {
+    "question": "🔑 **Which** block cipher mode **chains blocks together** using XOR?",
+    "answer": "cbc",
+    "accepted": [
+      "cbc",
+      "cipher block chaining"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "In **CBC** mode, every block depends on the previous one."
+  },
+  {
+    "question": "🔑 **What is** the term for a **unique salt** added to hashes to prevent rainbow table attacks?",
+    "answer": "salt",
+    "accepted": [
+      "salt",
+      "salting"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "A **salt** ensures that identical passwords yield different hashes."
+  },
+  {
+    "question": "🔑 **Which** hash function was **broken by Google** in 2017 (SHAttered)?",
+    "answer": "sha1",
+    "accepted": [
+      "sha1",
+      "sha-1"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Google demonstrated a practical collision for **SHA-1**."
+  },
+  {
+    "question": "🔑 **What is** the name of the **stream cipher** used in the original WEP standard?",
+    "answer": "rc4",
+    "accepted": [
+      "rc4"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**RC4** is now considered insecure and should not be used."
+  },
+  {
+    "question": "🔑 **Which** math problem forms the basis of **Diffie-Hellman** security?",
+    "answer": "discrete logarithm",
+    "accepted": [
+      "discrete logarithm problem",
+      "dlp"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Diffie-Hellman** relies on the difficulty of discrete logs."
+  },
+  {
+    "question": "🔑 **What is** the purpose of a **Message Authentication Code** (MAC)?",
+    "answer": "data integrity",
+    "accepted": [
+      "integrity",
+      "authenticity",
+      "integrity and authenticity"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "A **MAC** ensures that a message hasn't been tampered with."
+  },
+  {
+    "question": "🔑 **Which** type of attack tries **every possible key** until the correct one is found?",
+    "answer": "brute force",
+    "accepted": [
+      "brute force",
+      "bruteforce"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Brute force** is the most basic cryptographic attack."
+  },
+  {
+    "question": "🐧 **Which** Linux signal is sent by the kernel to a process that **exceeds its memory**?",
+    "answer": "sigkill",
+    "accepted": [
+      "sigkill",
+      "9"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The OOM Killer sends **SIGKILL** to free up system memory."
+  },
+  {
+    "question": "🐧 **What is** the term for a process that has finished execution but **remains in the process table**?",
+    "answer": "zombie",
+    "accepted": [
+      "zombie",
+      "zombie process"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "A **zombie** process waits for its parent to read its exit status."
+  },
+  {
+    "question": "🐧 **Which** directory on Linux contains **device files**?",
+    "answer": "/dev",
+    "accepted": [
+      "/dev",
+      "dev"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "The **/dev** directory represents hardware as files."
+  },
+  {
+    "question": "🐧 **What is** the name of the **first process** started by the Linux kernel?",
+    "answer": "init",
+    "accepted": [
+      "init",
+      "systemd",
+      "pid 1",
+      "1"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Init** (or Systemd) is the ancestor of all other processes."
+  },
+  {
+    "question": "🐧 **Which** Linux command is used to **change a user password**?",
+    "answer": "passwd",
+    "accepted": [
+      "passwd"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The `passwd` command updates user credentials."
+  },
+  {
+    "question": "🪟 **Which** Windows process manages **administrative privileges** (UAC)?",
+    "answer": "consent.exe",
+    "accepted": [
+      "consent.exe",
+      "consent"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Consent.exe** triggers the UAC prompt for elevation."
+  },
+  {
+    "question": "🪟 **What is** the name of the Windows **dynamic link library** loader?",
+    "answer": "ntdll.dll",
+    "accepted": [
+      "ntdll.dll",
+      "ntdll"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**ntdll.dll** handles internal system calls and module loading."
+  },
+  {
+    "question": "🪟 **Which** Windows registry hive stores **file association** data?",
+    "answer": "hkey_classes_root",
+    "accepted": [
+      "hkey_classes_root",
+      "hkcr"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**HKCR** defines which apps open which file types."
+  },
+  {
+    "question": "🪟 **What is** the term for a **mini-process** within a Windows process?",
+    "answer": "thread",
+    "accepted": [
+      "thread"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "A **thread** is the smallest unit of execution in an OS."
+  },
+  {
+    "question": "🪟 **Which** Windows tool is used to **view and edit the registry**?",
+    "answer": "regedit",
+    "accepted": [
+      "regedit",
+      "registry editor"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "`regedit.exe` is the standard tool for registry modification."
+  },
+  {
+    "question": "☁️ **Which** AWS service is used for **identity and access management**?",
+    "answer": "iam",
+    "accepted": [
+      "iam",
+      "identity and access management"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**IAM** controls who can access which AWS resources."
+  },
+  {
+    "question": "☁️ **What is** the term for a **misconfigured cloud storage bucket** that leaks data?",
+    "answer": "open s3 bucket",
+    "accepted": [
+      "open s3 bucket",
+      "s3 leak",
+      "unsecured bucket"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Publicly accessible S3 buckets are a major source of data breaches."
+  },
+  {
+    "question": "☁️ **Which** cloud concept involves **serverless execution** of code?",
+    "answer": "faas",
+    "accepted": [
+      "faas",
+      "function as a service",
+      "serverless"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**FaaS** (like AWS Lambda) runs code without managing servers."
+  },
+  {
+    "question": "☁️ **What is** the name of the **Azure** service for managing secrets and keys?",
+    "answer": "key vault",
+    "accepted": [
+      "key vault",
+      "azure key vault"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Azure Key Vault** provides secure storage for sensitive data."
+  },
+  {
+    "question": "☁️ **Which** cloud security model states that **the provider and customer** both have security duties?",
+    "answer": "shared responsibility model",
+    "accepted": [
+      "shared responsibility model",
+      "shared responsibility"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "Security **in** the cloud is the customer's job; security **of** the cloud is the provider's."
+  },
+  {
+    "question": "☁️ **What is** the term for a **container orchestration** platform developed by Google?",
+    "answer": "kubernetes",
+    "accepted": [
+      "kubernetes",
+      "k8s"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Kubernetes** automates deployment and scaling of containerized apps."
+  },
+  {
+    "question": "☁️ **Which** Kubernetes component is the **smallest deployable unit**?",
+    "answer": "pod",
+    "accepted": [
+      "pod"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "A **Pod** contains one or more containers sharing a network."
+  },
+  {
+    "question": "☁️ **What is** the name of the **GCP** service for global load balancing?",
+    "answer": "cloud load balancing",
+    "accepted": [
+      "cloud load balancing",
+      "glb"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**GLB** provides high availability across regions in GCP."
+  },
+  {
+    "question": "☁️ **Which** attack involves **moving from one cloud instance to another** within a VPC?",
+    "answer": "lateral movement",
+    "accepted": [
+      "lateral movement"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Lateral movement** is a key step in a cloud breach."
+  },
+  {
+    "question": "☁️ **What is** the term for **Infrastructure as Code** tool by HashiCorp?",
+    "answer": "terraform",
+    "accepted": [
+      "terraform"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Terraform** uses declarative configs to provision infrastructure."
+  },
+  {
+    "question": "☠️ **What is** the term for analyzing malware **without executing it**?",
+    "answer": "static analysis",
+    "accepted": [
+      "static analysis"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Static analysis** involves reading code and strings."
+  },
+  {
+    "question": "☠️ **What is** the term for analyzing malware **while it is running**?",
+    "answer": "dynamic analysis",
+    "accepted": [
+      "dynamic analysis"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Dynamic analysis** monitors behavior in a sandbox."
+  },
+  {
+    "question": "☠️ **Which** tool is a popular **open-source sandbox** for malware analysis?",
+    "answer": "cuckoo sandbox",
+    "accepted": [
+      "cuckoo",
+      "cuckoo sandbox"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Cuckoo** automates the analysis of suspicious files."
+  },
+  {
+    "question": "☠️ **What is** the hex signature for a **Windows executable (PE)** file?",
+    "answer": "4d5a",
+    "accepted": [
+      "4d 5a",
+      "4d5a",
+      "mz"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "PE files always start with **MZ** (Mark Zbikowski)."
+  },
+  {
+    "question": "☠️ **Which** Windows API is often hooked by malware to **hide its own process**?",
+    "answer": "ntquerysysteminformation",
+    "accepted": [
+      "ntquerysysteminformation"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Hooking **NtQuerySystemInformation** hides files and processes from Task Manager."
+  },
+  {
+    "question": "☠️ **What is** the term for a **malicious PDF** that executes code via Javascript?",
+    "answer": "weaponized pdf",
+    "accepted": [
+      "weaponized pdf",
+      "pdf exploit"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "PDFs can contain embedded scripts to trigger vulnerabilities."
+  },
+  {
+    "question": "☠️ **Which** type of malware **encrypts user files** and demands payment?",
+    "answer": "ransomware",
+    "accepted": [
+      "ransomware"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Ransomware** is one of the most profitable malware types today."
+  },
+  {
+    "question": "☠️ **What is** the name of the **malware** that targeted Iranian nuclear facilities?",
+    "answer": "stuxnet",
+    "accepted": [
+      "stuxnet"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Stuxnet** was a highly sophisticated worm that damaged centrifuges."
+  },
+  {
+    "question": "☠️ **Which** malware technique involves **obfuscating strings** to avoid signature detection?",
+    "answer": "string encryption",
+    "accepted": [
+      "string encryption",
+      "obfuscation"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Encrypting strings hides the malware's true intent from scanners."
+  },
+  {
+    "question": "☠️ **What is** the term for a **network of compromised computers** controlled by an attacker?",
+    "answer": "botnet",
+    "accepted": [
+      "botnet"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **Botnet** is used for DDoS and mass spamming."
+  },
+  {
+    "question": "🏥 **What is** the 3-letter acronym for a **Security Operations Center**?",
+    "answer": "soc",
+    "accepted": [
+      "soc"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "A **SOC** monitors and defends an organization's assets."
+  },
+  {
+    "question": "🏥 **What is** the term for a **documented plan** for handling a security breach?",
+    "answer": "incident response plan",
+    "accepted": [
+      "incident response plan",
+      "irp"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "An **IRP** ensures a structured reaction to threats."
+  },
+  {
+    "question": "🏥 **Which** tool is used to **aggregate logs** and detect patterns (4-letter acronym)?",
+    "answer": "siem",
+    "accepted": [
+      "siem"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**SIEM** (Security Information and Event Management) handles log ingestion."
+  },
+  {
+    "question": "🏥 **What is** the term for the **average time** it takes to fix a vulnerability?",
+    "answer": "mttr",
+    "accepted": [
+      "mttr",
+      "mean time to remediate"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**MTTR** is a key performance metric for security teams."
+  },
+  {
+    "question": "🏥 **Which** framework by NIST defines **Identify, Protect, Detect, Respond, Recover**?",
+    "answer": "nist cybersecurity framework",
+    "accepted": [
+      "nist csf",
+      "nist cybersecurity framework"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **NIST CSF** is a voluntary framework for managing risk."
+  },
+  {
+    "question": "🏥 **What is** the term for **proactively searching** for undetected threats in a network?",
+    "answer": "threat hunting",
+    "accepted": [
+      "threat hunting"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Threat hunting** goes beyond automated alerts to find stealthy attackers."
+  },
+  {
+    "question": "🏥 **Which** 4-letter acronym represents **automated security orchestration**?",
+    "answer": "soar",
+    "accepted": [
+      "soar",
+      "security orchestration"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**SOAR** platforms automate routine security tasks."
+  },
+  {
+    "question": "🏥 **What is** the first stage of the **Cyber Kill Chain**?",
+    "answer": "reconnaissance",
+    "accepted": [
+      "reconnaissance",
+      "recon"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "Attackers start by gathering info on the target."
+  },
+  {
+    "question": "🏥 **What is** the term for a **verified indicators** of a system compromise (3-letter acronym)?",
+    "answer": "ioc",
+    "accepted": [
+      "ioc",
+      "indicator of compromise"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**IoCs** include IP addresses, file hashes, and domain names."
+  },
+  {
+    "question": "🏥 **Which** role is responsible for **legal and compliance** aspects of security?",
+    "answer": "grc",
+    "accepted": [
+      "grc",
+      "governance risk and compliance"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**GRC** ensures the organization follows laws and regulations."
+  },
+  {
+    "question": "📱 **What is** the name of the **permission system** in Android?",
+    "answer": "intents",
+    "accepted": [
+      "intents",
+      "permissions"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Intents** facilitate communication between Android components."
+  },
+  {
+    "question": "📱 **Which** mobile OS uses **Sandboxing** as its primary security mechanism?",
+    "answer": "ios",
+    "accepted": [
+      "ios",
+      "iphone os"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**iOS** isolates apps to prevent them from accessing other app data."
+  },
+  {
+    "question": "📱 **What is** the term for **gaining root access** on an Android device?",
+    "answer": "rooting",
+    "accepted": [
+      "rooting"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Rooting** gives the user full control over the Android OS."
+  },
+  {
+    "question": "📱 **What is** the term for **bypassing Apple's software restrictions**?",
+    "answer": "jailbreaking",
+    "accepted": [
+      "jailbreaking"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**Jailbreaking** allows installation of unauthorized apps on iOS."
+  },
+  {
+    "question": "📱 **Which** Android component handles **incoming messages** in the background?",
+    "answer": "broadcast receiver",
+    "accepted": [
+      "broadcast receiver"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Broadcast Receivers** listen for system-wide events."
+  },
+  {
+    "question": "📱 **What is** the term for **intervening in mobile traffic** using a proxy?",
+    "answer": "interception",
+    "accepted": [
+      "interception",
+      "mitm"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Tools like Burp can intercept mobile app API calls."
+  },
+  {
+    "question": "📱 **Which** security enclave on iPhones **stores biometric data**?",
+    "answer": "secure enclave",
+    "accepted": [
+      "secure enclave",
+      "sep"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "The **Secure Enclave** is a dedicated chip for sensitive data."
+  },
+  {
+    "question": "📱 **What is** the name of the **Android sandbox** (deprecated in modern versions)?",
+    "answer": "zygote",
+    "accepted": [
+      "zygote"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Zygote** is the parent process for all Android apps."
+  },
+  {
+    "question": "📱 **Which** attack involves **cloning a SIM card** to steal multi-factor codes?",
+    "answer": "sim swapping",
+    "accepted": [
+      "sim swapping",
+      "sim swap"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Sim swapping** is a common social engineering attack."
+  },
+  {
+    "question": "📱 **What is** the term for a **third-party app store** used to distribute malware?",
+    "answer": "sideloading",
+    "accepted": [
+      "sideloading",
+      "third party store"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Sideloading** bypasses official app store security checks."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction is used to **syscall into the kernel** on x64 Linux?",
+    "answer": "syscall",
+    "accepted": [
+      "syscall",
+      "0x0f05"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Modern x64 Linux uses the **syscall** instruction instead of `int 0x80`."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the hex value for the **x64 \"ret\" instruction**?",
+    "answer": "0xc3",
+    "accepted": [
+      "0xc3",
+      "c3"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**0xC3** is the opcode for a near return."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used as the **first argument** in the x64 System V ABI?",
+    "answer": "rdi",
+    "accepted": [
+      "rdi"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Linux x64 functions take their first argument in **RDI**."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used as the **second argument** in the x64 System V ABI?",
+    "answer": "rsi",
+    "accepted": [
+      "rsi"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Linux x64 functions take their second argument in **RSI**."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the effect of the **x64 \"leave\" instruction**?",
+    "answer": "restore stack frame",
+    "accepted": [
+      "restore stack frame",
+      "mov rsp, rbp; pop rbp"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Leave** cleans up the stack frame by restoring RSP and RBP."
+  },
+  {
+    "question": "💀 **NULL**: **Which** ROP gadget is used to **pop a value from the stack into RAX**?",
+    "answer": "pop rax; ret",
+    "accepted": [
+      "pop rax; ret",
+      "pop rax"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Pop gadgets are essential for setting register values in ROP chains."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the purpose of the **Shadow Stack** security feature?",
+    "answer": "prevent return address overwrite",
+    "accepted": [
+      "prevent return address overwrite",
+      "cet",
+      "control flow enforcement"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Shadow Stack** stores return addresses in protected memory to block BOF."
+  },
+  {
+    "question": "💀 **NULL**: **Which** glibc allocator feature **detects double-free** bugs?",
+    "answer": "tcache-perthread-struct",
+    "accepted": [
+      "tcache",
+      "per-thread cache"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Modern glibc uses **tcache** which includes double-free detection."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for a **simultaneous read and write** violation in threads?",
+    "answer": "race condition",
+    "accepted": [
+      "race condition",
+      "data race"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Race conditions** occur when thread timing is exploited."
+  },
+  {
+    "question": "💀 **NULL**: **Which** CPU flag is used to **prevent kernel access to user memory**?",
+    "answer": "smap",
+    "accepted": [
+      "smap",
+      "supervisor mode access prevention"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**SMAP** prevents kernel-mode code from reading/writing user-mode pages."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used as the **return value** in the x64 ABI?",
+    "answer": "rax",
+    "accepted": [
+      "rax",
+      "eax"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Functions return their primary result in the **RAX** register."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **table** that resolves shared library addresses?",
+    "answer": "plt",
+    "accepted": [
+      "plt",
+      "procedure linkage table"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **PLT** works with the GOT to call external functions."
+  },
+  {
+    "question": "💀 **NULL**: **Which** security mechanism makes the **GOT read-only** after loading?",
+    "answer": "relro",
+    "accepted": [
+      "relro",
+      "read only relocations"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**RELRO** prevents attackers from overwriting function pointers."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the opcode for the **x64 \"int3\" (break)** instruction?",
+    "answer": "0xcc",
+    "accepted": [
+      "0xcc",
+      "cc"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**0xCC** triggers a trap used by debuggers."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is the **frame pointer** in x64?",
+    "answer": "rbp",
+    "accepted": [
+      "rbp"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**RBP** marks the base of the current stack frame."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for a **dangling pointer** after a `free()` call?",
+    "answer": "use after free",
+    "accepted": [
+      "uaf",
+      "use after free"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**UAF** is a critical memory corruption class."
+  },
+  {
+    "question": "💀 **NULL**: **Which** glibc feature prevents **off-by-one heap overflows** via the prev_size field?",
+    "answer": "safe unlinking",
+    "accepted": [
+      "safe unlinking"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Safe unlinking** checks pointers during heap chunk coalescing."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **first chunk of shellcode** used to find the stack base?",
+    "answer": "egg hunter",
+    "accepted": [
+      "egg hunter",
+      "egghunter"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "An **egg hunter** searches memory for a specific \"egg\" signature."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction is used to **compare two values** without changing registers?",
+    "answer": "cmp",
+    "accepted": [
+      "cmp",
+      "test"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**CMP** updates the EFLAGS register based on subtraction."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **overwriting a pointer** to redirect code execution?",
+    "answer": "pointer hijacking",
+    "accepted": [
+      "pointer hijacking",
+      "eip hijack",
+      "rip hijack"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Hijacking **RIP** is the goal of most binary exploits."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used as the **instruction pointer** in x64?",
+    "answer": "rip",
+    "accepted": [
+      "rip"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**RIP** points to the next instruction to be executed."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **overwriting the EIP/RIP** using a format string bug?",
+    "answer": "format string exploit",
+    "accepted": [
+      "format string exploit",
+      "format string"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Format strings like `%n` can write to arbitrary memory locations."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Linux kernel function is used to **map physical memory** into a process?",
+    "answer": "remap_pfn_range",
+    "accepted": [
+      "remap_pfn_range"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**remap_pfn_range** maps a range of physical page frame numbers."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **x64 calling convention** used by Windows?",
+    "answer": "fastcall",
+    "accepted": [
+      "fastcall",
+      "microsoft x64"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Windows x64 uses a modified **fastcall** with 4 register arguments."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is the **Stack Pointer** in x64?",
+    "answer": "rsp",
+    "accepted": [
+      "rsp"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**RSP** points to the top of the current stack."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **reusing code fragments** from shared libraries?",
+    "answer": "rop",
+    "accepted": [
+      "rop",
+      "return oriented programming"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**ROP** bypasses NX/DEP by chaining existing \"gadgets\"."
+  },
+  {
+    "question": "💀 **NULL**: **Which** CPU feature prevents **executing code on the stack** (3-letter acronym)?",
+    "answer": "dep",
+    "accepted": [
+      "dep",
+      "nx",
+      "nx bit"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**DEP** (Data Execution Prevention) marks stack/heap as non-executable."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **security cookie** used to detect stack overflows?",
+    "answer": "stack canary",
+    "accepted": [
+      "stack canary",
+      "canary",
+      "stack guard"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "A **stack canary** is checked before a function returns to catch overflows."
+  },
+  {
+    "question": "💀 **NULL**: **Which** glibc heap chunk state **indicates it is not in use**?",
+    "answer": "free",
+    "accepted": [
+      "free",
+      "unallocated"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Free chunks are stored in bins for future allocations."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **exploiting a chunk header** to gain arbitrary write?",
+    "answer": "house of force",
+    "accepted": [
+      "house of force",
+      "heap exploit"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**House of Force** involves overwriting the \"top chunk\" size."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used to **pass the third argument** in x64 Linux?",
+    "answer": "rdx",
+    "accepted": [
+      "rdx"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The third argument is passed in **RDX** in the System V ABI."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used to **pass the fourth argument** in x64 Linux?",
+    "answer": "rcx",
+    "accepted": [
+      "rcx"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The fourth argument is passed in **RCX** in the System V ABI."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used to **pass the fifth argument** in x64 Linux?",
+    "answer": "r8",
+    "accepted": [
+      "r8"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The fifth argument is passed in **R8** in the System V ABI."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used to **pass the sixth argument** in x64 Linux?",
+    "answer": "r9",
+    "accepted": [
+      "r9"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The sixth argument is passed in **R9** in the System V ABI."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **first 512 bytes of a disk**?",
+    "answer": "mbr",
+    "accepted": [
+      "mbr",
+      "master boot record"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **MBR** contains the partition table and bootloader code."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction is used to **clear the interrupts flag**?",
+    "answer": "cli",
+    "accepted": [
+      "cli"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**CLI** disables maskable interrupts on x86."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction is used to **set the interrupts flag**?",
+    "answer": "sti",
+    "accepted": [
+      "sti"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**STI** enables maskable interrupts on x86."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for a **trap triggered by a software interrupt**?",
+    "answer": "exception",
+    "accepted": [
+      "exception",
+      "software interrupt"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Exceptions (like Page Faults) are handled by the kernel."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows structure contains **process-specific info** accessible from user-land?",
+    "answer": "peb",
+    "accepted": [
+      "peb",
+      "process environment block"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **PEB** contains heap info, module lists, and more."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows structure contains **thread-specific info**?",
+    "answer": "teb",
+    "accepted": [
+      "teb",
+      "thread environment block"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **TEB** stores thread-local data and the SEH chain."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **redirecting a function call** to a different implementation?",
+    "answer": "hooking",
+    "accepted": [
+      "hooking",
+      "inline hooking",
+      "iat hooking"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Hooking** is used for monitoring, debugging, and malware."
+  },
+  {
+    "question": "💀 **NULL**: **Which** hooking type **overwrites the start of a function** with a JMP?",
+    "answer": "inline hooking",
+    "accepted": [
+      "inline hooking",
+      "detouring"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Inline hooking** replaces the function prologue with a jump to the hook."
+  },
+  {
+    "question": "💀 **NULL**: **Which** hooking type **modifies the Import Address Table**?",
+    "answer": "iat hooking",
+    "accepted": [
+      "iat hooking"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**IAT hooking** changes the resolved address of a library export."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **loading a library into a remote process**?",
+    "answer": "dll injection",
+    "accepted": [
+      "dll injection"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**DLL injection** is a common technique for process hollowing and malware."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows API is used to **read memory from another process**?",
+    "answer": "ReadProcessMemory",
+    "accepted": [
+      "readprocessmemory",
+      "rpm"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**ReadProcessMemory** requires appropriate handle permissions."
+  },
+  {
+    "question": "💀 **NULL**: **Which** Windows API is used to **write memory to another process**?",
+    "answer": "WriteProcessMemory",
+    "accepted": [
+      "writeprocessmemory",
+      "wpm"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**WriteProcessMemory** is used for code injection and patching."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **replacing a legitimate process** with malicious code at startup?",
+    "answer": "process hollowing",
+    "accepted": [
+      "process hollowing",
+      "process replacement"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Process hollowing** creates a process in a suspended state and replaces its memory."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is used as a **counter for string operations** (REP)?",
+    "answer": "rcx",
+    "accepted": [
+      "rcx",
+      "ecx"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **RCX** register acts as a count decrementer in string loops."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the opcode for the **x64 NOP instruction**?",
+    "answer": "0x90",
+    "accepted": [
+      "0x90",
+      "90"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**0x90** (No Operation) is effectively `xchg eax, eax`."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction is used to **atomically increment a value** in memory?",
+    "answer": "lock inc",
+    "accepted": [
+      "lock inc",
+      "inc"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **LOCK** prefix ensures atomicity across multiple cores."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **exploiting out-of-order execution** to leak data?",
+    "answer": "side channel attack",
+    "accepted": [
+      "side channel attack",
+      "spectre",
+      "meltdown"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Side channels leak info via timing, power, or cache state."
+  },
+  {
+    "question": "💀 **NULL**: **Which** vulnerability allowed **user-mode to read any kernel memory** (Intel specific)?",
+    "answer": "meltdown",
+    "accepted": [
+      "meltdown",
+      "variant 3"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Meltdown** exploited speculative execution to bypass kernel memory protection."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the acronym for **Kernel Page Table Isolation** (meltdown fix)?",
+    "answer": "kpti",
+    "accepted": [
+      "kpti",
+      "pti"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**KPTI** maps separate page tables for user and kernel modes."
+  },
+  {
+    "question": "💀 **NULL**: **Which** CPU register stores the **result of the last comparison**?",
+    "answer": "eflags",
+    "accepted": [
+      "eflags",
+      "rflags",
+      "flags"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **EFLAGS** register contains status bits like Zero and Carry."
+  },
+  {
+    "question": "💀 **NULL**: **Which** flag is bit 6 of the **EFLAGS** register?",
+    "answer": "zero flag",
+    "accepted": [
+      "zero flag",
+      "zf"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Zero Flag** (ZF) is set if the result of an operation is zero."
+  },
+  {
+    "question": "💀 **NULL**: **Which** instruction is used to **compare and jump if equal**?",
+    "answer": "je",
+    "accepted": [
+      "je",
+      "jz"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**JE** (Jump if Equal) triggers if the Zero Flag is set."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **obfuscating control flow** by using opaque predicates?",
+    "answer": "control flow flattening",
+    "accepted": [
+      "control flow flattening"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Control flow flattening** breaks a program into small blocks managed by a central dispatcher."
+  },
+  {
+    "question": "💀 **NULL**: **Which** ARM instruction is the equivalent of the **x86 NOP**?",
+    "answer": "nop",
+    "accepted": [
+      "nop",
+      "mov r0, r0"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "On ARM, **NOP** is often implemented as a no-op move or specific opcode."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is the **Link Register** in ARM (stores return address)?",
+    "answer": "lr",
+    "accepted": [
+      "lr",
+      "r14"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Link Register** (LR) holds the address to return to after a function call."
+  },
+  {
+    "question": "💀 **NULL**: **Which** register is the **Program Counter** in ARM?",
+    "answer": "pc",
+    "accepted": [
+      "pc",
+      "r15"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **Program Counter** (PC) points to the current instruction on ARM."
+  },
+  {
+    "question": "**Which** protocol is used by **BGP** for communication (Port 179)?",
+    "answer": "tcp",
+    "accepted": [
+      "tcp"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "Unlike other routing protocols, **BGP** uses TCP for reliability."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **first sector of each disk partition**?",
+    "answer": "vbr",
+    "accepted": [
+      "vbr",
+      "volume boot record"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The **VBR** contains partition-specific boot code."
+  },
+  {
+    "question": "**Which** cipher mode provides **authenticated encryption** (e.g., in AES)?",
+    "answer": "gcm",
+    "accepted": [
+      "gcm",
+      "galois counter mode"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**GCM** provides both confidentiality and integrity."
+  },
+  {
+    "question": "**What is** the bit-length of an **IPv6 address**?",
+    "answer": "128",
+    "accepted": [
+      "128",
+      "128-bit"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "IPv6 uses **128-bit** addresses for a near-infinite supply."
+  },
+  {
+    "question": "💀 **NULL**: **Which** HTTP status code represents **\"I'm a teapot\"**?",
+    "answer": "418",
+    "accepted": [
+      "418"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Status **418** is an April Fools' joke from 1998 (RFC 2324)."
+  },
+  {
+    "question": "💀 **NULL**: **Which** hashing algorithm is used for **Bitcoins proof-of-work**?",
+    "answer": "sha-256",
+    "accepted": [
+      "sha-256",
+      "sha256"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Bitcoin uses **double SHA-256** for block hashing."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **hiding data within an image**?",
+    "answer": "steganography",
+    "accepted": [
+      "steganography"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Steganography** hides the presence of a message, not just its content."
+  },
+  {
+    "question": "**Which** port is used by **SSH** by default?",
+    "answer": "22",
+    "accepted": [
+      "22"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "SSH (Secure Case) defaults to **Port 22**."
+  },
+  {
+    "question": "**Which** port is used by **SMTP** for sending emails?",
+    "answer": "25",
+    "accepted": [
+      "25"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Standard **SMTP** uses Port 25, while 587 is used for submission."
+  },
+  {
+    "question": "**Which** port is used by **HTTPS**?",
+    "answer": "443",
+    "accepted": [
+      "443"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**HTTPS** (TLS) defaults to Port 443."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the name of the **first web browser** created by Tim Berners-Lee?",
+    "answer": "worldwideweb",
+    "accepted": [
+      "worldwideweb",
+      "nexus"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "The first browser was named **WorldWideWeb** (no spaces)."
+  },
+  {
+    "question": "💀 **NULL**: **Which** vulnerability involves **injecting data into a response** to split it into two?",
+    "answer": "http response splitting",
+    "accepted": [
+      "http response splitting"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Response splitting** allows attackers to control the second response headers."
+  },
+  {
+    "question": "**What is** the term for **simulating multiple virtual machines** on one host?",
+    "answer": "virtualization",
+    "accepted": [
+      "virtualization"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Virtualization** (via hypervisors) isolates OS environments."
+  },
+  {
+    "question": "**Which** 3-letter acronym refers to the **speed of a network connection**?",
+    "answer": "bps",
+    "accepted": [
+      "bps",
+      "bits per second"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "Network speed is measured in **Bits Per Second**."
+  },
+  {
+    "question": "**What is** the name of the **first wide-area packet-switched network**?",
+    "answer": "arpanet",
+    "accepted": [
+      "arpanet"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**ARPANET** was the precursor to the modern Internet."
+  },
+  {
+    "question": "💀 **NULL**: **Which** protocol is used for **time synchronization** across a network?",
+    "answer": "ntp",
+    "accepted": [
+      "ntp",
+      "network time protocol"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**NTP** ensures all devices on a network have the same time."
+  },
+  {
+    "question": "**What is** the bit-length of a **standard MAC address**?",
+    "answer": "48",
+    "accepted": [
+      "48",
+      "48-bit"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "MAC addresses are **48 bits** long, usually shown in hex."
+  },
+  {
+    "question": "💀 **NULL**: **Which** cryptographic principle says **security should not rely on secrecy of the design**?",
+    "answer": "kerckhoffs principle",
+    "accepted": [
+      "kerckhoffs principle",
+      "kerckhoffs"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**Kerckhoffs's principle** states that only the key needs to be secret."
+  },
+  {
+    "question": "**What is** the term for **trying a small set of passwords** against many users?",
+    "answer": "password spraying",
+    "accepted": [
+      "password spraying"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Password spraying** avoids account lockouts by testing one password at a time."
+  },
+  {
+    "question": "💀 **NULL**: **Which** vulnerability involves **storing sensitive data in log files**?",
+    "answer": "logging of sensitive information",
+    "accepted": [
+      "logging of sensitive information",
+      "insecure logging"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "Logs often accidentally capture passwords, tokens, or PII."
+  },
+  {
+    "question": "💀 **NULL**: **What is** the term for **using a victim's browser to mine cryptocurrency**?",
+    "answer": "cryptojacking",
+    "accepted": [
+      "cryptojacking"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Cryptojacking** steals CPU/Power from users without their consent."
+  },
+  {
+    "question": "**Which** 4-letter acronym refers to **Cross-Origin Resource Sharing**?",
+    "answer": "cors",
+    "accepted": [
+      "cors"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**CORS** headers allow browsers to access resources from different origins."
+  },
+  {
+    "question": "**What is** the bit-length of a **SHA-1 hash**?",
+    "answer": "160",
+    "accepted": [
+      "160",
+      "160-bit"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "SHA-1 produce a **160-bit** message digest."
+  },
+  {
+    "question": "**Which** algorithm is popular for **key exchange** over an insecure channel?",
+    "answer": "diffie-hellman",
+    "accepted": [
+      "diffie-hellman",
+      "dh"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Diffie-Hellman** allows two parties to create a shared secret publicly."
+  },
+  {
+    "question": "**What is** the name of the **first mass-marketed computer mouse**?",
+    "answer": "xerox alto mouse",
+    "accepted": [
+      "xerox alto mouse",
+      "xerox mouse"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The **Xerox Alto** featured the first mouse in a GUI environment."
+  },
+  {
+    "question": "**Which** 3-letter acronym refers to the **main processor of a computer**?",
+    "answer": "cpu",
+    "accepted": [
+      "cpu"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The **CPU** (Central Processing Unit) handles core arithmetic."
+  },
+  {
+    "question": "**Which** 3-letter acronym refers to the **graphics processor**?",
+    "answer": "gpu",
+    "accepted": [
+      "gpu"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "The **GPU** excels at parallel tasks like rendering and mining."
+  },
+  {
+    "question": "**What is** the term for **bypassing a lock by manipulating its internal pins**?",
+    "answer": "lock picking",
+    "accepted": [
+      "lock picking"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Lock picking** is a physical security skill used in Red Teaming."
+  },
+  {
+    "question": "**Which** type of authentication uses **something you have, something you know, and something you are**?",
+    "answer": "multi-factor authentication",
+    "accepted": [
+      "mfa",
+      "multi-factor authentication"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**MFA** provides layered security for accounts."
+  },
+  {
+    "question": "**What is** the term for **unauthorized access to a wireless network**?",
+    "answer": "wardriving",
+    "accepted": [
+      "wardriving"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Wardriving** involves searching for Wi-Fi networks in a moving vehicle."
+  },
+  {
+    "question": "💀 **NULL**: **Which** protocol is used for **sending and receiving faxes** over IP (T.38)?",
+    "answer": "fax over ip",
+    "accepted": [
+      "foip",
+      "t.38"
+    ],
+    "difficulty": "null",
+    "coins": 250,
+    "explanation": "**FoIP** allows fax machines to work across packet-switched networks."
+  },
+  {
+    "question": "**Which** 3-letter acronym refers to the **Internet of Things**?",
+    "answer": "iot",
+    "accepted": [
+      "iot"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**IoT** refers to embedding internet connectivity into everyday objects."
+  },
+  {
+    "question": "**What is** the term for **mapping a network to find its structure**?",
+    "answer": "network mapping",
+    "accepted": [
+      "network mapping",
+      "nmap"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**Network mapping** is the first step in reconnaissance."
+  },
+  {
+    "question": "**Which** 4-letter acronym refers to **Intrusion Detection System**?",
+    "answer": "ids",
+    "accepted": [
+      "ids"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "An **IDS** monitors networks for suspicious activity."
+  },
+  {
+    "question": "**Which** 4-letter acronym refers to **Intrusion Prevention System**?",
+    "answer": "ips",
+    "accepted": [
+      "ips"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "An **IPS** actively blocks detected threats in a network."
+  },
+  {
+    "question": "**What is** the name of the **framework used to describe cyber attacks**?",
+    "answer": "mitre att&ck",
+    "accepted": [
+      "mitre att&ck",
+      "attack framework"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "The **MITRE ATT&CK** matrix lists tactics and techniques used by adversaries."
+  },
+  {
+    "question": "**Which** vulnerability involves **tricking a user into clicking a hidden button**?",
+    "answer": "clickjacking",
+    "accepted": [
+      "clickjacking",
+      "ui redressing"
+    ],
+    "difficulty": "hard",
+    "coins": 100,
+    "explanation": "**Clickjacking** uses transparent layers to intercept user clicks."
+  },
+  {
+    "question": "**What is** the name of the **first high-level programming language**?",
+    "answer": "fortran",
+    "accepted": [
+      "fortran"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "**FORTRAN** (FORmula TRANslation) was released in 1957."
+  },
+  {
+    "question": "**Which** 3-letter acronym refers to **Search Engine Optimization**?",
+    "answer": "seo",
+    "accepted": [
+      "seo"
+    ],
+    "difficulty": "easy",
+    "coins": 25,
+    "explanation": "**SEO** improves a website's visibility in search results."
+  },
+  {
+    "question": "**What is** the name of the **first commercial microprocessor** (Intel)?",
+    "answer": "intel 4004",
+    "accepted": [
+      "intel 4004",
+      "4004"
+    ],
+    "difficulty": "medium",
+    "coins": 50,
+    "explanation": "The **Intel 4004** was a 4-bit CPU released in 1971."
+  }
+]
