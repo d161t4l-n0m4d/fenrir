@@ -184,7 +184,7 @@ You can add/edit questions in `questions.json`. Format:
 - The bot needs **Manage Roles** permission.
 - Data is stored in `hive.db` (SQLite). It will be created automatically.
 - To change trivia frequency, edit `trivia_interval_minutes` in `config.json` and restart the bot.
-- Free Wispbyte tier is perfect for this bot. Upgrade only if you need more RAM later.
+
 
 ---
 
