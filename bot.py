@@ -62,6 +62,16 @@ async def init_db():
                 last_work TEXT
             )
         """)
+        await db.execute("""
+            CREATE TABLE IF NOT EXISTS warnings (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                guild_id INTEGER NOT NULL,
+                user_id INTEGER NOT NULL,
+                moderator_id INTEGER NOT NULL,
+                reason TEXT NOT NULL,
+                created_at TEXT NOT NULL
+            )
+        """)
         await db.commit()
 
 async def get_user(user_id: int):
